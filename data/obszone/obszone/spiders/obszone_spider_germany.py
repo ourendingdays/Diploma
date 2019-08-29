@@ -4,7 +4,7 @@ from ..items import ObszoneItem
 
 # inheriting from class scrapy.Spider
 class ObszoneSpider(scrapy.Spider):
-    name = 'obszone_spider'
+    name = 'obszone_spider_germany'
     page_number = 2
 
     # list of websites we want to scrap
