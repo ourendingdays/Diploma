@@ -8,7 +8,7 @@
 import scrapy
 
 
-class GreeboItem(scrapy.Item):
+class GeeboItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
     ad = scrapy.Field()

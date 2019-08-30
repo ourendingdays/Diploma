@@ -1,21 +1,21 @@
 import scrapy
-from ..items import GreeboItem
+from ..items import GeeboItem
 
 
 # inheriting from class scrapy.Spider
-class GreeboSpiderMerch(scrapy.Spider):
-    name = 'greebo_spider_merchandise'
+class GeeboSpiderEquipment(scrapy.Spider):
+    name = 'geebo_spider_equipment'
     page_number = 2
-    # site has 50 pages of merchandise
+    # site has 50 pages of equipment
     page_number_total = 50
 
     # list of websites we want to scrap
-    start_urls = ['https://geebo.com/merchandise/list/mobile//page/1/']
+    start_urls = ['https://geebo.com/construction-farm-equipment/list/mobile//page/1/']
 
     # response contains a source code of the web page we are scrapping (from start_url)
     def parse(self, response):
         # an instance variable
-        item = GreeboItem()
+        item = GeeboItem()
 
         articles = response.css(".image+ td")
         next_page = response.css(".paging a::attr(href)").get()
@@ -31,8 +31,8 @@ class GreeboSpiderMerch(scrapy.Spider):
             # yield works with generator
             yield item
 
-        next_page = 'https://geebo.com/merchandise/list/mobile//page/' + str(GreeboSpiderMerch.page_number) + '/'
-        if GreeboSpiderMerch.page_number <= GreeboSpiderMerch.page_number_total:
-            GreeboSpiderMerch.page_number += 1
+        next_page = 'https://geebo.com/construction-farm-equipment/list/mobile//page/' + str(GeeboSpiderEquipment.page_number) + '/'
+        if GeeboSpiderEquipment.page_number <= GeeboSpiderEquipment.page_number_total:
+            GeeboSpiderEquipment.page_number += 1
             # callback tells Scrapy what to do next
             yield response.follow(next_page, callback=self.parse)
