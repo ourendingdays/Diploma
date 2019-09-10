@@ -17,6 +17,10 @@ My bachelor work in Hochschule Merseburg written in Python, using NLP and ML
     - Scrapping data from web using scapy, google useragent or proxies
 2. **ML**
     - Writing diploma using clustering
+    
+#### Commits
+>One of the 2 branches above: subproject: message. __Example:__ 
+>> `Data: amazon: added new spider`
 
 #### Data comes from these websites:
 - obszone
