@@ -2,35 +2,30 @@ import scrapy
 from ..items import AmazonItem
 
 
-# inheriting from class scrapy.Spider
-class GeeboSpiderVehicles(scrapy.Spider):
-    name = 'geebo_spider_vehicles'
+class AmazonSpiderArts(scrapy.Spider):
+    name = 'amazon_spider_art'
+    start_urls = [
+        'https://www.amazon.com/s?rh=n%3A4954955011&page=2&qid=1568238135&ref=lp_4954955011_pg_2'
+    ]
     page_number = 2
-    # site has 50 pages of equipment
-    page_number_total = 50
+    page_number_total = 400
 
-    # list of websites we want to scrap
-    start_urls = ['https://geebo.com/vehicles/list/mobile//page/1/']
-
-    # response contains a source code of the web page we are scrapping (from start_url)
     def parse(self, response):
-        # an instance variable
-        item = AmazonItem()
+        items = AmazonItem()
+        # next_page_real = response.css('.a-last a').css('::attr(href)').extract()
 
-        articles = response.css(".image+ td")
-        next_page = 0
+        # this one takes all ads on a page
+        ad = response.css('.a-color-base.a-text-normal::text').extract()
 
-        for article in articles:
-            ad = article.css(".title::text").extract()
-            # ad_href = article.css(".title::attr(href)").get()
-            # print('ad_href: ', ad_href)
+        for i in range(len(ad)):
+            items['ad'] = ad[i]
 
-            item['ad'] = ad
+            yield items
 
-            # yield = return
-            # yield works with generator
-            yield item
-
-        if next_page is not None:
-            # callback tells Scrapy what to do next
+        next_page = 'https://www.amazon.com/s?rh=n%3A4954955011&page=' + str(AmazonSpiderArts.page_number) + \
+                    '&qid=1568235852&ref=lp_4954955011_pg_2/'
+        if AmazonSpiderArts.page_number <= AmazonSpiderArts.page_number_total:
+            AmazonSpiderArts.page_number += 1
             yield response.follow(next_page, callback=self.parse)
+
+
