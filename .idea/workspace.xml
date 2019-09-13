@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0fbbf6e-d701-4170-b1ca-14e8cb2d27e0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/data/amazon/amazon_arts_more5.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/amazon/amazon/spiders/amazon_spider_arts.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/amazon/amazon/spiders/amazon_spider_arts.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/amazon/amazon_arts_more3.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/amazon/amazon_arts_more3.csv" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,8 +32,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/data/amazon/amazon/spiders/amazon_spider_arts.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+            <state relative-caret-position="427">
+              <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -40,9 +42,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/amazon/amazon_qrts_more2.csv">
+        <entry file="file://$PROJECT_DIR$/data/amazon/amazon_arts_more3.csv">
           <provider selected="true" editor-type-id="csv-text-editor">
-            <state relative-caret-position="-8309" />
+            <state relative-caret-position="-193" />
           </provider>
           <provider editor-type-id="csv-table-editor">
             <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
@@ -67,6 +69,8 @@
       <find>2006</find>
       <find>Equinox</find>
       <find>Sin</find>
+      <find>12</find>
+      <find>Press</find>
     </findStrings>
     <dirStrings>
       <dir>D:\Python projects\DIPLOMA\data\ebay</dir>
@@ -224,17 +228,18 @@
       <workItem from="1568098728867" duration="839000" />
       <workItem from="1568140428515" duration="4852000" />
       <workItem from="1568224665023" duration="10859000" />
-      <workItem from="1568277090854" duration="2584000" />
+      <workItem from="1568277090854" duration="4272000" />
+      <workItem from="1568389490988" duration="9806000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54262000" />
+    <option name="totallyTimeSpent" value="65756000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18003026" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18229954" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -248,7 +253,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" x="127" y="291" width="1322" height="365" id="Terminal" maximized="true" order="11" visible="true" weight="0.5866013" />
+      <window_info active="true" anchor="bottom" x="127" y="291" width="1322" height="365" id="Terminal" maximized="true" order="11" visible="true" weight="0.15849674" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -284,13 +289,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data/obszone/test.csv" />
-    <entry file="file://$PROJECT_DIR$/data/greebo/test_greebo.json" />
-    <entry file="file://$PROJECT_DIR$/data/greebo/scrapped_data/geebo_merchendise.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-15011" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/greebo/scrapped_data/geebo_equipment.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="145">
@@ -488,10 +486,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data/amazon/amazon_arts_more5.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="290">
+          <caret line="2690" lean-forward="true" selection-start-line="2690" selection-end-line="2690" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/amazon/amazon_arts_more4.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/data/amazon/amazon_arts_more.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="644">
-          <caret line="241" selection-start-line="241" selection-end-line="241" />
+        <state relative-caret-position="266">
+          <caret line="225" column="76" lean-forward="true" selection-start-line="225" selection-start-column="76" selection-end-line="225" selection-end-column="76" />
         </state>
       </provider>
       <provider editor-type-id="csv-table-editor">
@@ -500,7 +514,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/data/amazon/amazon_qrts_more2.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="-8309" />
+        <state relative-caret-position="307">
+          <caret line="434" lean-forward="true" selection-start-line="434" selection-end-line="434" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/amazon/amazon_arts_more3.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-193" />
       </provider>
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
@@ -508,8 +532,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/data/amazon/amazon/spiders/amazon_spider_arts.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        <state relative-caret-position="427">
+          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>

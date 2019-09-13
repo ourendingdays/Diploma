@@ -13,10 +13,16 @@ class AmazonSpiderArts(scrapy.Spider):
     # start_urls = [
     #     'https://www.amazon.com/Arts-Crafts/s?rh=n%3A4954955011&page=70'
     # ]
+    # start_urls = [
+    #     'https://www.amazon.com/Arts-Crafts/s?rh=n%3A4954955011&page=140'
+    # ]
+    # start_urls = [
+    #     'https://www.amazon.com/Arts-Crafts/s?rh=n%3A4954955011&page=200'
+    # ]
     start_urls = [
-        'https://www.amazon.com/Arts-Crafts/s?rh=n%3A4954955011&page=140'
+        'https://www.amazon.com/Arts-Crafts/s?rh=n%3A4954955011&page=315'
     ]
-    page_number = 141
+    page_number = 316
     page_number_total = 400
 
     def parse(self, response):
