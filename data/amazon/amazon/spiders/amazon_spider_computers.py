@@ -12,7 +12,7 @@ class AmazonSpiderArts(scrapy.Spider):
     #     'https://www.amazon.com/s?i=computers-intl-ship&rh=n%3A16225007011&page=3&qid=1568446306&ref=sr_pg_3'
     # ]
     start_urls = [
-        'https://www.amazon.com/Computers/s?rh=n%3A16225007011&page=48'
+        'https://www.amazon.com/Computers/s?rh=n%3A16225007011&page=80'
     ]
 
     page_number = 316
