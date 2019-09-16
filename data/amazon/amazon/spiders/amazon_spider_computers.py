@@ -2,7 +2,7 @@ import scrapy
 from ..items import AmazonItem
 
 
-class AmazonSpiderArts(scrapy.Spider):
+class AmazonSpiderComputers(scrapy.Spider):
     name = 'amazon_spider_computers'
 
     # start_urls = [
