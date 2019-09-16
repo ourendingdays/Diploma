@@ -19,15 +19,17 @@ My bachelor work in Hochschule Merseburg written in Python, using NLP and ML
     - Writing diploma using clustering
     
 #### Commits
->One of the 2 branches above: subproject: message. _Not including README.md_. __Example:__ 
+>One of the 2 branches above: subproject: message. _Not including README.md_. 
+
+__Example:__ 
 >> `Data: amazon: added new spider`
 
 >> README.md: update
 
 #### Data comes from these websites:
-- obszone
+- [x] obszone
     - had problems downloading american products for sale, so had to use a litle trick with url
-- geebo
+-  [x] geebo
 - adlandpro
 - pennysaverusa
 - hoobly
