@@ -5,9 +5,10 @@ from ..items import AmazonItem
 class AmazonSpiderElectronics(scrapy.Spider):
     name = 'amazon_spider_electronics'
 
-    start_urls = [
-        'https://www.amazon.com/Computers/s?rh=n%3A16225007011&page=347'
-    ]
+    # start_urls = [
+    #     'https://www.amazon.com/s?i=electronics-intl-ship&rh=n%3A%2116225009011&page=2&qid=1568625454&ref=lp_16225009011_pg_27'
+    # ]
+    start_urls= ['https://www.amazon.com/s?rh=n%3A16225009011&page=45']
 
     def parse(self, response):
         items = AmazonItem()
