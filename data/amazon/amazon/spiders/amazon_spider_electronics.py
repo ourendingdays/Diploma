@@ -8,7 +8,7 @@ class AmazonSpiderElectronics(scrapy.Spider):
     # start_urls = [
     #     'https://www.amazon.com/s?i=electronics-intl-ship&rh=n%3A%2116225009011&page=2&qid=1568625454&ref=lp_16225009011_pg_27'
     # ]
-    start_urls= ['https://www.amazon.com/s?rh=n%3A16225009011&page=55']
+    start_urls= ['https://www.amazon.com/s?rh=n%3A16225009011&page=175']
 
     def parse(self, response):
         items = AmazonItem()
