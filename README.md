@@ -14,7 +14,7 @@ My bachelor work in Hochschule Merseburg written in Python, using NLP and ML
 
 #### My bachelor has two major branches: 
 1. **Data**
-    - Scrapping data from web using scapy, google useragent or proxies
+    - Scrapping data from web using scapy, google useragent or proxies. I used to scrap amazon with proxie, but because of lagging and switching off decided to use useragent and time.sleep()
 2. **ML**
     - Writing diploma using clustering
     
