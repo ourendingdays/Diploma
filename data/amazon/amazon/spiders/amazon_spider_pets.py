@@ -21,7 +21,9 @@ class AmazonSpiderPets(scrapy.Spider):
     # start_urls = [
     #     'https://www.amazon.com/s?i=pets-intl-ship&bbn=16225013011&rh=n%3A16225013011%2Cn%3A2975520011&dc&page=2&fst=as%3Aoff&qid=1569015744&rnid=16225013011&ref=sr_pg_2'
     # ]
-    start_urls = ['https://www.amazon.com/Birds-Pet-Supplies/s?rh=n%3A2975221011&page=325']
+    # start_urls = ['https://www.amazon.com/Birds-Pet-Supplies/s?rh=n%3A2975221011&page=325']
+    # start_urls = ['https://www.amazon.com/s?i=pets-intl-ship&bbn=16225013011&rh=n%3A16225013011%2Cn%3A2975481011&dc&page=2&fst=as%3Aoff&qid=1569054323&rnid=16225013011&ref=sr_pg_2']
+    start_urls = ['https://www.amazon.com/s?i=pets-intl-ship&bbn=16225013011&rh=n%3A16225013011%2Cn%3A2975504011&dc&page=2&fst=as%3Aoff&qid=1569061196&rnid=16225013011&ref=sr_pg_2']
 
     def parse(self, response):
         items = AmazonItem()
