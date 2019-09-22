@@ -39,3 +39,10 @@ __Example:__
 - salespider
 - ebay
 - amazon
+
+
+## Amazon data issues:
+When entering _departments_ on amazon you can scrap either **400** pages of `common` products of said department, or go into ***Feature Categories*** and scrap `precise` products.  
+For instance: 400 pages of **automotive** department **OR** *Car care, car electronics* and so on.
+
+>TODO: Create `precise` and `common` folders and scrap everything there
