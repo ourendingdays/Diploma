@@ -1,3 +1,4 @@
+import time
 import scrapy
 from ..items import AmazonItem
 
@@ -19,27 +20,31 @@ class AmazonSpiderArts(scrapy.Spider):
     # start_urls = [
     #     'https://www.amazon.com/Arts-Crafts/s?rh=n%3A4954955011&page=200'
     # ]
-    start_urls = [
-        'https://www.amazon.com/Arts-Crafts/s?rh=n%3A4954955011&page=315'
-    ]
-    page_number = 316
-    page_number_total = 400
+    # start_urls = [
+    #     'https://www.amazon.com/Arts-Crafts/s?rh=n%3A4954955011&page=315'
+    # ]
+    # start_urls = ['https://www.amazon.com/Painting-Drawing-Art-Supplies/s?rh=n%3A2747968011&page=260']
+    # start_urls = ['https://www.amazon.com/Beading-Jewelry-Making-Arts-Crafts-Sewing/s?rh=n%3A12896081&page=335']
+    # start_urls = ['https://www.amazon.com/s?i=arts-crafts-intl-ship&bbn=4954955011&rh=n%3A4954955011%2Cn%3A2617942011%2Cn%3A378733011&dc&page=2&fst=as%3Aoff&qid=1569353553&rnid=2617942011&ref=sr_pg_2']
+    start_urls = ['https://www.amazon.com/Fabric-Arts-Crafts-Sewing/s?rh=n%3A12899121&page=249']
+    # page_number = 316
+    # page_number_total = 400
 
     def parse(self, response):
         items = AmazonItem()
-        # next_page_real = response.css('.a-last a').css('::attr(href)').extract()
+        next_page_real = response.css(".a-last a").css("::attr(href)").get()
 
-        # this one takes all ads on a page
         ad = response.css('.a-color-base.a-text-normal::text').extract()
 
         for i in range(len(ad)):
             items['ad'] = ad[i]
-
             yield items
 
-        next_page = 'https://www.amazon.com/Arts-Crafts/s?rh=n%3A4954955011&page=' + str(AmazonSpiderArts.page_number)
-        if AmazonSpiderArts.page_number <= AmazonSpiderArts.page_number_total:
-            AmazonSpiderArts.page_number += 1
-            yield response.follow(next_page, callback=self.parse)
+        if next_page_real is not None:
+            time.sleep(10)
+            yield response.follow(next_page_real, callback=self.parse)
 
-
+        # next_page = 'https://www.amazon.com/Arts-Crafts/s?rh=n%3A4954955011&page=' + str(AmazonSpiderArts.page_number)
+        # if AmazonSpiderArts.page_number <= AmazonSpiderArts.page_number_total:
+        #     AmazonSpiderArts.page_number += 1
+        #     yield response.follow(next_page, callback=self.parse)
