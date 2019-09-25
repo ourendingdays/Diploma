@@ -33,7 +33,9 @@ class AmazonSpiderArts(scrapy.Spider):
     # start_urls = ['https://www.amazon.com/Organization-Storage-Transport-Arts-Crafts-Sewing/s?rh=n%3A2237594011&page=285']
     # start_urls = ['https://www.amazon.com/Printmaking-Arts-Crafts-Sewing/s?rh=n%3A12898451&page=344']
     # start_urls = ['https://www.amazon.com/s?i=arts-crafts-intl-ship&bbn=4954955011&rh=n%3A4954955011%2Cn%3A2617942011%2Cn%3A12898821&dc&page=2&fst=as%3Aoff&qid=1569438393&rnid=2617942011&ref=sr_pg_2']
-    start_urls = ['https://www.amazon.com/s?i=arts-crafts-intl-ship&bbn=4954955011&rh=n%3A4954955011%2Cn%3A2617942011%2Cn%3A12899091&dc&page=2&fst=as%3Aoff&qid=1569441489&rnid=2617942011&ref=sr_pg_2']
+    # start_urls = ['https://www.amazon.com/s?i=arts-crafts-intl-ship&bbn=4954955011&rh=n%3A4954955011%2Cn%3A2617942011%2Cn%3A12899091&dc&page=2&fst=as%3Aoff&qid=1569441489&rnid=2617942011&ref=sr_pg_2']
+    # start_urls = ['https://www.amazon.com/s?i=arts-crafts-intl-ship&bbn=4954955011&rh=n%3A4954955011%2Cn%3A2617942011%2Cn%3A723469011&dc&page=2&fst=as%3Aoff&qid=1569444829&rnid=2617942011&ref=sr_pg_2']
+    start_urls = ['https://www.amazon.com/s?i=arts-crafts-intl-ship&bbn=4954955011&rh=n%3A4954955011%2Cn%3A2617942011%2Cn%3A723452011&dc&page=2&fst=as%3Aoff&qid=1569448806&rnid=2617942011&ref=sr_pg_2']
     # page_number = 316
     # page_number_total = 400
 
