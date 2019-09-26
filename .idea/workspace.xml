@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0fbbf6e-d701-4170-b1ca-14e8cb2d27e0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data/amazon/amazon_automotive_lights-accessories.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/amazon/amazon_automotive_moto.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/amazon/amazon/spiders/amazon_spider_automotive.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/amazon/amazon/spiders/amazon_spider_automotive.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/amazon/amazon_automotive_interior-accessories.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/amazon/amazon_automotive_interior-accessories.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/amazon/interior.csv" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data/amazon/amazon/spiders/amazon_spider_automotive.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="17" column="196" selection-start-line="17" selection-start-column="196" selection-end-line="17" selection-end-column="196" />
+            <state relative-caret-position="129">
+              <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -44,7 +39,41 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/amazon/oils.csv">
+        <entry file="file://$PROJECT_DIR$/data/amazon/rv2.csv">
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="150">
+              <caret line="44" column="33" selection-end-line="5329" />
+            </state>
+          </provider>
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/data/amazon/rv.csv">
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="122">
+              <caret line="4224" column="86" selection-start-line="4224" selection-start-column="86" selection-end-line="4224" selection-end-column="86" />
+            </state>
+          </provider>
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/amazon/amazon_automotive_performance-parts.csv">
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="-118580" />
+          </provider>
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/amazon/amazon_automotive_oils-fluids.csv">
           <provider selected="true" editor-type-id="csv-text-editor">
             <state relative-caret-position="-29794" />
           </provider>
@@ -73,9 +102,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>&quot;Dell 24 Inch Gaming Monitor, 1ms response time, 144Hz AMD FreeSync&quot;</find>
-      <find>New 923-0741 Hard Drvie Cable 821-1480-A MacBook Pro Unibody 13 A1278 2012 MD101</find>
-      <find>ASUS RT-AC1900P Router Dual-Band WiFi Router (Renewed)</find>
       <find>HP 62XL | Ink Cartridge | Black | C2P05AN</find>
       <find>&quot;BLU Advance 5.2 HD - GSM Unlocked Smartphone, 16GB+1GB RAM -Blue&quot;</find>
       <find>Lexar High-Performance 633X 32GB microSDHC UHS-I Card</find>
@@ -103,6 +129,9 @@
       <find>Toyota PTR57-35170 TRD Shift Knob</find>
       <find>Guardian® Bell GDB-Viking</find>
       <find>Avital 4115L Avistart Remote Start with Two 1-Button Controls</find>
+      <find>&quot;Newtrend 300 feet Nature Jute Twine for DIY Craft, Packing, Decoration and Gardening,3Ply Durable</find>
+      <find>&quot;Nite Ize Gear Tie Cordable, The Org</find>
+      <find>Thetford 09868 Ball Valve Package</find>
     </findStrings>
     <dirStrings>
       <dir>D:\Python projects\DIPLOMA\data\ebay</dir>
@@ -114,8 +143,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/data/amazon/amazon_beauty_more9.csv" />
-        <option value="$PROJECT_DIR$/data/amazon/amazon_spider_more.csv" />
         <option value="$PROJECT_DIR$/data/amazon/amazon/spiders/amazon_spider_beauty.py" />
         <option value="$PROJECT_DIR$/data/amazon/amazon_beauty.csv" />
         <option value="$PROJECT_DIR$/data/amazon/amazon/spiders/amazon_spider_home_kitchen.py" />
@@ -165,6 +192,8 @@
         <option value="$PROJECT_DIR$/data/amazon/lights2.csv" />
         <option value="$PROJECT_DIR$/data/amazon/lights.csv" />
         <option value="$PROJECT_DIR$/data/amazon/amazon/spiders/amazon_spider_automotive.py" />
+        <option value="$PROJECT_DIR$/data/amazon/rv2.csv" />
+        <option value="$PROJECT_DIR$/data/amazon/rv.csv" />
       </list>
     </option>
   </component>
@@ -324,17 +353,18 @@
       <workItem from="1569251086333" duration="14590000" />
       <workItem from="1569313288014" duration="26985000" />
       <workItem from="1569397532964" duration="36971000" />
-      <workItem from="1569481780760" duration="26084000" />
+      <workItem from="1569481780760" duration="33586000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="325075000" />
+    <option name="totallyTimeSpent" value="332577000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19667171" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19667171" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -348,7 +378,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50226927" side_tool="true" weight="0.6372549" />
-      <window_info active="true" anchor="bottom" x="127" y="291" width="1322" height="365" id="Terminal" maximized="true" order="11" sideWeight="0.4977307" visible="true" weight="0.6356209" />
+      <window_info anchor="bottom" x="127" y="291" width="1322" height="365" id="Terminal" maximized="true" order="11" sideWeight="0.4977307" visible="true" weight="0.28431374" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -387,18 +417,6 @@
     <SUITE FILE_PATH="coverage/DIPLOMA$csv_merger.coverage" NAME="csv_merger Coverage Results" MODIFIED="1568623223135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data/amazon/amazon_arts_crafts_decorating.csv" />
-    <entry file="file://$PROJECT_DIR$/data/amazon/scrapped_data/arts_crafts/amazon_arts_crafts_fabric_decorating.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="75">
-          <caret line="72" column="49" selection-start-line="72" selection-start-column="49" selection-end-line="72" selection-end-column="49" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/amazon/needlework2.csv" />
     <entry file="file://$PROJECT_DIR$/data/amazon/needlework3.csv" />
     <entry file="file://$PROJECT_DIR$/data/amazon/scrapped_data/arts_crafts/amazon_arts_crafts_needlework.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
@@ -755,7 +773,7 @@
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/amazon/oils.csv">
+    <entry file="file://$PROJECT_DIR$/data/amazon/amazon_automotive_oils-fluids.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="-29794" />
       </provider>
@@ -763,14 +781,42 @@
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data/amazon/amazon_automotive_performance-parts.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-118580" />
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/data/amazon/amazon/spiders/amazon_spider_automotive.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="17" column="196" selection-start-line="17" selection-start-column="196" selection-end-line="17" selection-end-column="196" />
+        <state relative-caret-position="129">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/amazon/rv2.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="150">
+          <caret line="44" column="33" selection-end-line="5329" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/amazon/rv.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="122">
+          <caret line="4224" column="86" selection-start-line="4224" selection-start-column="86" selection-end-line="4224" selection-end-column="86" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
     </entry>
   </component>
