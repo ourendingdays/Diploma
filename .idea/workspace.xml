@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a0fbbf6e-d701-4170-b1ca-14e8cb2d27e0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/amazon/amazon/spiders/amazon_spider_arts.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/amazon/amazon/spiders/amazon_spider_arts.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/amazon/amazon/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/amazon/amazon/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/amazon/amazon/spiders/amazon_spider_automotive.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/amazon/amazon/spiders/amazon_spider_automotive.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,11 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data/amazon/amazon/spiders/amazon_spider_arts.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/amazon/amazon/spiders/amazon_spider_automotive.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="37" column="199" selection-start-line="37" selection-start-column="199" selection-end-line="37" selection-end-column="199" />
+            <state relative-caret-position="67">
+              <caret line="14" column="100" selection-start-line="14" selection-start-column="100" selection-end-line="14" selection-end-column="100" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -39,11 +40,35 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/data/amazon/interior.csv">
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="111">
+              <caret line="3385" column="43" selection-start-line="3385" selection-start-column="43" selection-end-line="3385" selection-end-column="43" />
+            </state>
+          </provider>
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/amazon/interior5.csv">
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state>
+              <caret selection-end-line="25" />
+            </state>
+          </provider>
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data/amazon/amazon/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+            <state relative-caret-position="39">
+              <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -59,14 +84,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Equinox</find>
-      <find>Sin</find>
-      <find>12</find>
-      <find>Press</find>
-      <find>Perler Beads</find>
-      <find>HRX Package 100pc</find>
-      <find>Power Packed</find>
-      <find>MICRO USB</find>
       <find>Monoprice 15-Feet USB 2.0 A Male to Mini-B 5pin Male 28/24AWG Cable with Ferrite Core (Gold Plated) (105450)</find>
       <find>Belkin Thunderbolt 3</find>
       <find>Coquimbo Sewing Kit for</find>
@@ -89,6 +106,14 @@
       <find>&quot;Rit Dye Liquid Dye, 8 fl oz, Navy Blue, 3-Pack&quot;</find>
       <find>Jacquard Lumiere Artist Acrylics grape [PACK OF 3 ]</find>
       <find>Fabric Paint 1oz-Iridescent-Golden Blue</find>
+      <find>Q Power BASS12 4HOLE T 12-Inch Sealed Divided Speaker Box</find>
+      <find>LUU Dual Dash Cam for Taxi Driver Infrared Night Vision Dual Front and Inside Dash Camera</find>
+      <find>SunPass Mini Sticker Pre-Paid Toll Program For Florida</find>
+      <find>HangTime Penn State (Blue background) embossed metal auto tag</find>
+      <find>Custom Accessories Custom 92771 Sugar Skulls License Plate Frame</find>
+      <find>Smittybilt 2844 Trail Jack Mount</find>
+      <find>Key Fob fits 2010-2017 Buick Allure Encore Lacrosse Regal Verano / Chevy Camaro Cruze Equinox Impala Malibu Sonic / GM</find>
+      <find>&quot;FH Group F16403TAN Cargo Mat Fits Most Sedans, Coupes and Small SUVs (Semi Custom Tri</find>
     </findStrings>
     <dirStrings>
       <dir>D:\Python projects\DIPLOMA\data\ebay</dir>
@@ -100,16 +125,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/data/amazon_computers_more6.csv" />
-        <option value="$PROJECT_DIR$/data/ddfdfdfd.csv" />
-        <option value="$PROJECT_DIR$/data/csv_merger.py" />
-        <option value="$PROJECT_DIR$/data/amazon/amazon_computers.csv" />
-        <option value="$PROJECT_DIR$/data/amazon/amazon/spiders/amazon_spider_computers.py" />
-        <option value="$PROJECT_DIR$/data/ebay/ebay/items.py" />
         <option value="$PROJECT_DIR$/data/ebay/ebay/spiders/ebay_spider_arts.py" />
         <option value="$PROJECT_DIR$/data/amazon/amazon/spiders/amazon_spider_electronics.py" />
         <option value="$PROJECT_DIR$/data/amazon/amazon_electronics.csv" />
-        <option value="$PROJECT_DIR$/data/amazon/amazon/spiders/amazon_spider_automotive.py" />
         <option value="$PROJECT_DIR$/data/amazon/amazon_automotive.csv" />
         <option value="$PROJECT_DIR$/data/amazon/amazon_beauty_more9.csv" />
         <option value="$PROJECT_DIR$/data/amazon/amazon_spider_more.csv" />
@@ -148,9 +166,16 @@
         <option value="$PROJECT_DIR$/data/amazon/amazon_arts_crafts_fabric_decorating.csv" />
         <option value="$PROJECT_DIR$/data/amazon/needlework.csv" />
         <option value="$PROJECT_DIR$/data/amazon/cases2.csv" />
-        <option value="$PROJECT_DIR$/data/amazon/amazon/settings.py" />
         <option value="$PROJECT_DIR$/data/amazon/printmaking.csv" />
         <option value="$PROJECT_DIR$/data/amazon/amazon/spiders/amazon_spider_arts.py" />
+        <option value="$PROJECT_DIR$/data/amazon/care-care.csv" />
+        <option value="$PROJECT_DIR$/data/amazon/amazon_automotive_care-care.csv" />
+        <option value="$PROJECT_DIR$/data/amazon/amazon/settings.py" />
+        <option value="$PROJECT_DIR$/data/amazon/amazon/spiders/amazon_spider_automotive.py" />
+        <option value="$PROJECT_DIR$/data/amazon/car-electronic.csv" />
+        <option value="$PROJECT_DIR$/data/amazon/exterior4.csv" />
+        <option value="$PROJECT_DIR$/data/amazon/exterior.csv" />
+        <option value="$PROJECT_DIR$/data/amazon/interior.csv" />
       </list>
     </option>
   </component>
@@ -204,14 +229,6 @@
               <item name="amazon" type="462c0819:PsiDirectoryNode" />
               <item name="scrapped_data" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="DIPLOMA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DIPLOMA" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="amazon" type="462c0819:PsiDirectoryNode" />
-              <item name="scrapped_data" type="462c0819:PsiDirectoryNode" />
-              <item name="arts_crafts" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -228,17 +245,17 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Python projects\DIPLOMA\data\amazon\scrapped_data" />
+      <recent name="D:\Python projects\DIPLOMA\data\amazon\scrapped_data\arts_crafts" />
+      <recent name="D:\Python projects\DIPLOMA\data\amazon\scrapped_data\pets" />
+      <recent name="D:\Python projects\DIPLOMA\data\amazon\scrapped_data\clothing" />
+      <recent name="D:\Python projects\DIPLOMA\data\greebo\scrapped_data" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Python projects\DIPLOMA\data\amazon\amazon\spiders" />
       <recent name="D:\Python projects\DIPLOMA\data" />
       <recent name="D:\Python projects\DIPLOMA\data\greebo\greebo\spiders" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Python projects\DIPLOMA\data\amazon\scrapped_data\arts_crafts" />
-      <recent name="D:\Python projects\DIPLOMA\data\amazon\scrapped_data" />
-      <recent name="D:\Python projects\DIPLOMA\data\amazon\scrapped_data\pets" />
-      <recent name="D:\Python projects\DIPLOMA\data\amazon\scrapped_data\clothing" />
-      <recent name="D:\Python projects\DIPLOMA\data\greebo\scrapped_data" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -317,17 +334,19 @@
       <workItem from="1569220538196" duration="8062000" />
       <workItem from="1569251086333" duration="14590000" />
       <workItem from="1569313288014" duration="26985000" />
-      <workItem from="1569397532964" duration="35442000" />
+      <workItem from="1569397532964" duration="36971000" />
+      <workItem from="1569481780760" duration="13766000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="297462000" />
+    <option name="totallyTimeSpent" value="312757000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30635402" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19667171" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -341,7 +360,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50226927" side_tool="true" weight="0.6372549" />
-      <window_info active="true" anchor="bottom" x="127" y="291" width="1322" height="365" id="Terminal" maximized="true" order="11" sideWeight="0.4977307" visible="true" weight="0.75653595" />
+      <window_info anchor="bottom" x="127" y="291" width="1322" height="365" id="Terminal" maximized="true" order="11" sideWeight="0.4977307" visible="true" weight="0.21405229" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -350,7 +369,7 @@
       <window_info anchor="right" id="Database" order="4" weight="0.32980332" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30484116" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31089258" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -364,7 +383,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50226927" side_tool="true" weight="0.6372549" />
-      <window_info active="true" anchor="bottom" x="127" y="291" width="1322" height="365" id="Terminal" maximized="true" order="11" sideWeight="0.4977307" visible="true" weight="0.43300653" />
+      <window_info active="true" anchor="bottom" x="127" y="291" width="1322" height="365" id="Terminal" maximized="true" order="11" sideWeight="0.4977307" visible="true" weight="0.7385621" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -380,114 +399,6 @@
     <SUITE FILE_PATH="coverage/DIPLOMA$csv_merger.coverage" NAME="csv_merger Coverage Results" MODIFIED="1568623223135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data/amazon/scrapped_data/women_fashion__clothing/amazon_women_fashion_clothing_jackets_vests.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="153">
-          <caret line="12957" column="95" selection-start-line="12957" selection-start-column="95" selection-end-line="12957" selection-end-column="95" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/amazon/scrapped_data/women_fashion__clothing/amazon_women_fashion_clothing_active.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/amazon/scrapped_data/women_fashion__clothing/amazon_women_fashion_clothing_common.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/amazon/amazon/spiders/amazon_spider_pets.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="26" column="71" selection-start-line="26" selection-start-column="71" selection-end-line="26" selection-end-column="71" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/amazon/scrapped_data/amazon_computers.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="-170763" />
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/amazon/scrapped_data/amazon_automotive.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="-171863" />
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/amazon/common2.csv" />
-    <entry file="file://$PROJECT_DIR$/data/amazon/scrapped_data/pets/amazon_pets_common.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="206">
-          <caret line="4699" column="25" selection-start-line="4699" selection-start-column="25" selection-end-line="4699" selection-end-column="25" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/amazon/drawning2.csv" />
-    <entry file="file://$PROJECT_DIR$/data/amazon/drawning3.csv" />
-    <entry file="file://$PROJECT_DIR$/data/amazon/drawning4.csv" />
-    <entry file="file://$PROJECT_DIR$/data/amazon/drawning5.csv" />
-    <entry file="file://$PROJECT_DIR$/data/amazon/scrapped_data/arts_crafts/amazon_arts_crafts_common.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/amazon/scrapped_data/arts_crafts/amazon_arts_crafts_painting_drawing_art.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="207">
-          <caret line="6069" column="62" selection-start-line="6069" selection-start-column="58" selection-end-line="6069" selection-end-column="62" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/amazon/crafting2.csv" />
-    <entry file="file://$PROJECT_DIR$/data/amazon/amazon/spiders/amazon_spider_women_fashion.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="39" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/amazon/scrapped_data/arts_crafts/amazon_arts_crafts_crafting.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="-191269" />
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/amazon/fabric2.csv" />
-    <entry file="file://$PROJECT_DIR$/data/amazon/scrapped_data/arts_crafts/amazon_arts_crafts_fabric.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="323">
-          <caret line="5880" column="85" selection-start-line="5880" selection-start-column="85" selection-end-line="5880" selection-end-column="85" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/amazon/jewelry1.csv" />
-    <entry file="file://$PROJECT_DIR$/data/amazon/jewelry2.csv" />
     <entry file="file://$PROJECT_DIR$/data/amazon/jewelry3.csv" />
     <entry file="file://$PROJECT_DIR$/data/amazon/jewelry4.csv" />
     <entry file="file://$PROJECT_DIR$/data/amazon/jewelry5.csv" />
@@ -499,15 +410,6 @@
       </provider>
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/amazon/amazon/spiders/amazon_spider_automotive.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-40">
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data/amazon/scrapped_data/amazon_beauty.csv">
@@ -535,46 +437,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/amazon/decorating2.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" selection-start-line="1" selection-end-line="14" selection-end-column="69" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/amazon/decorating3.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" selection-end-line="2521" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/amazon/decorating4.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/amazon/amazon_arts_crafts_decorating.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="313">
-          <caret line="570" column="17" selection-end-line="8335" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/data/amazon/decorating2.csv" />
+    <entry file="file://$PROJECT_DIR$/data/amazon/decorating3.csv" />
+    <entry file="file://$PROJECT_DIR$/data/amazon/decorating4.csv" />
+    <entry file="file://$PROJECT_DIR$/data/amazon/amazon_arts_crafts_decorating.csv" />
     <entry file="file://$PROJECT_DIR$/data/amazon/scrapped_data/arts_crafts/amazon_arts_crafts_fabric_decorating.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="75">
@@ -585,26 +451,8 @@
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/amazon/needlework2.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="25" selection-end-line="888" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/amazon/needlework3.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state>
-          <caret selection-end-line="3386" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/data/amazon/needlework2.csv" />
+    <entry file="file://$PROJECT_DIR$/data/amazon/needlework3.csv" />
     <entry file="file://$PROJECT_DIR$/data/amazon/scrapped_data/arts_crafts/amazon_arts_crafts_needlework.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="20">
@@ -615,87 +463,14 @@
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/amazon/cases.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="-1420" />
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/amazon/cases3.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/amazon/cases5.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="1513">
-          <caret line="1673" lean-forward="true" selection-end-line="1673" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/amazon/cases4.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state>
-          <caret selection-end-line="2665" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/amazon/cases6.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="24" selection-end-line="2785" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/amazon/amazon/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/amazon/printmaking2.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="22" selection-end-line="2757" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/amazon/printmaking3.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state>
-          <caret selection-end-line="2665" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/amazon/printmaking4.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="38" lean-forward="true" selection-end-line="1369" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/data/amazon/cases.csv" />
+    <entry file="file://$PROJECT_DIR$/data/amazon/cases3.csv" />
+    <entry file="file://$PROJECT_DIR$/data/amazon/cases5.csv" />
+    <entry file="file://$PROJECT_DIR$/data/amazon/cases4.csv" />
+    <entry file="file://$PROJECT_DIR$/data/amazon/cases6.csv" />
+    <entry file="file://$PROJECT_DIR$/data/amazon/printmaking2.csv" />
+    <entry file="file://$PROJECT_DIR$/data/amazon/printmaking3.csv" />
+    <entry file="file://$PROJECT_DIR$/data/amazon/printmaking4.csv" />
     <entry file="file://$PROJECT_DIR$/data/amazon/scrapped_data/arts_crafts/amazon_arts_crafts_printmaking.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="192">
@@ -730,6 +505,14 @@
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data/amazon/scrapped_data/arts_crafts/amazon_arts_crafts_gift_wrapping.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-183571" />
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/data/amazon/amazon/spiders/amazon_spider_arts.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -738,6 +521,215 @@
             <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/amazon/scrapped_data/amazon_automotive.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="169">
+          <caret line="8604" column="21" selection-start-line="8604" selection-start-column="21" selection-end-line="8604" selection-end-column="21" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/amazon/care-care3.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="46" lean-forward="true" selection-end-line="25" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/amazon/care-care4.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="38" selection-end-line="98" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/amazon/care-care5.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/amazon/scrapped_data/amazon_automotive_care-care.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="311">
+          <caret line="5912" selection-start-line="5912" selection-end-line="5912" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/amazon/car-care6.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="17" lean-forward="true" selection-end-line="3630" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/amazon/exterior2.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/amazon/amazon/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/amazon/amazon/spiders/amazon_spider_automotive.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="14" column="100" selection-start-line="14" selection-start-column="100" selection-end-line="14" selection-end-column="100" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/amazon/car-electronic2.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="18" selection-end-line="49" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/amazon/car-electronic3.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state>
+          <caret selection-end-line="5234" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/amazon/car-electronic4.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state>
+          <caret selection-end-line="1970" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/amazon/car-electronic5.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state>
+          <caret selection-end-line="865" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/amazon/scrapped_data/amazon_automotive_car-electronics-accessories.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="154">
+          <caret line="2351" column="54" selection-start-line="2351" selection-end-line="2351" selection-end-column="54" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/amazon/exterior3.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state>
+          <caret selection-end-line="2810" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/amazon/exterior4.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-11002">
+          <caret selection-end-line="1847" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/amazon/scrapped_data/amazon_automotive_exterior-accessories.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="154">
+          <caret line="7699" column="32" selection-start-line="7699" selection-end-line="7699" selection-end-column="32" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/amazon/interior2.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-3">
+          <caret line="6" column="24" lean-forward="true" selection-end-line="25" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/amazon/interior3.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="391">
+          <caret line="25" selection-start-column="2" selection-end-line="25" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/amazon/interior4.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state>
+          <caret selection-end-line="3194" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/amazon/interior5.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state>
+          <caret selection-end-line="25" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/amazon/interior.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="111">
+          <caret line="3385" column="43" selection-start-line="3385" selection-start-column="43" selection-end-line="3385" selection-end-column="43" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
     </entry>
   </component>
