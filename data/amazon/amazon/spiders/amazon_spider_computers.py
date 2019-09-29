@@ -20,7 +20,11 @@ class AmazonSpiderComputers(scrapy.Spider):
     # ]
     # start_urls = ['https://www.amazon.com/s?i=computers-intl-ship&bbn=16225007011&rh=n%3A16225007011%2Cn%3A193870011&dc&page=2&fst=as%3Aoff&qid=1569687504&rnid=16225007011&ref=sr_pg_2']
     # start_urls = ['https://www.amazon.com/s?i=computers-intl-ship&bbn=16225007011&rh=n%3A16225007011%2Cn%3A13896617011&dc&page=2&fst=as%3Aoff&qid=1569695429&rnid=16225007011&ref=sr_pg_2']
-    start_urls = ['https://www.amazon.com/s?i=computers-intl-ship&bbn=16225007011&rh=n%3A16225007011%2Cn%3A1292110011&dc&page=331&fst=as%3Aoff&qid=1569700850&rnid=16225007011&ref=sr_pg_331']
+    #  start_urls = ['https://www.amazon.com/s?i=computers-intl-ship&bbn=16225007011&rh=n%3A16225007011%2Cn%3A1292110011&dc&page=331&fst=as%3Aoff&qid=1569700850&rnid=16225007011&ref=sr_pg_331']
+    # start_urls = ['https://www.amazon.com/s?i=computers-intl-ship&bbn=16225007011&rh=n%3A16225007011%2Cn%3A3011391011&dc&page=292&fst=as%3Aoff&qid=1569716875&rnid=16225007011&ref=sr_pg_292']
+    # start_urls = ['https://www.amazon.com/s?i=computers-intl-ship&bbn=16225007011&rh=n%3A16225007011%2Cn%3A1292115011&dc&page=2&fst=as%3Aoff&qid=1569717933&rnid=16225007011&ref=sr_pg_2']
+    start_urls = ['https://www.amazon.com/s?i=computers-intl-ship&bbn=16225007011&rh=n%3A16225007011%2Cn%3A172504&dc&page=2&fst=as%3Aoff&qid=1569751594&rnid=16225007011&ref=sr_pg_2']
+
 
     # page_number = 316
     # page_number_total = 400
