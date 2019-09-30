@@ -14,7 +14,10 @@ class AmazonSpiderElectronics(scrapy.Spider):
     # start_urls = ['https://www.amazon.com/s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A16225009011%2Cn%3A281407&dc&page=2&fst=as%3Aoff&qid=1569776909&rnid=16225009011&ref=sr_pg_2']
     # start_urls = ['https://www.amazon.com/s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A16225009011%2Cn%3A502394&dc&page=2&fst=as%3Aoff&qid=1569779520&rnid=16225009011&ref=sr_pg_2']
     # start_urls = ['https://www.amazon.com/s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A16225009011%2Cn%3A3248684011&dc&page=2&fst=as%3Aoff&qid=1569783301&rnid=16225009011&ref=sr_pg_2']
-    start_urls = ['https://www.amazon.com/s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A16225009011%2Cn%3A2811119011&dc&page=2&fst=as%3Aoff&qid=1569801647&rnid=16225009011&ref=sr_pg_2']
+    # start_urls = ['https://www.amazon.com/s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A16225009011%2Cn%3A2811119011&dc&page=2&fst=as%3Aoff&qid=1569801647&rnid=16225009011&ref=sr_pg_2']
+    # start_urls = ['https://www.amazon.com/s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A16225009011%2Cn%3A172526&dc&page=2&fst=as%3Aoff&qid=1569805121&rnid=16225009011&ref=sr_pg_2']
+    # start_urls = ['https://www.amazon.com/s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A16225009011%2Cn%3A172541&dc&page=118&fst=as%3Aoff&qid=1569808648&rnid=16225009011&ref=sr_pg_118']
+    start_urls = ['https://www.amazon.com/s?i=electronics-intl-ship&bbn=16225009011&rh=n%3A16225009011%2Cn%3A667846011&dc&page=170&fst=as%3Aoff&qid=1569834613&rnid=16225009011&ref=sr_pg_170']
     def parse(self, response):
         items = AmazonItem()
         next_page_real = response.css(".a-last a").css("::attr(href)").get()
