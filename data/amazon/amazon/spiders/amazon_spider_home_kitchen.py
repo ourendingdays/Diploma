@@ -21,7 +21,11 @@ class AmazonSpiderHomeKitchen(scrapy.Spider):
     # start_urls = ['https://www.amazon.com/s?i=kitchen-intl-ship&bbn=16225011011&rh=n%3A16225011011%2Cn%3A16510975011&dc&page=2&qid=1570140259&rnid=16225011011&ref=sr_pg_2']
     # start_urls = ['https://www.amazon.com/s?i=kitchen-intl-ship&bbn=16225011011&rh=n%3A16225011011%2Cn%3A13679381&dc&page=2&qid=1570142656&rnid=16225011011&ref=sr_pg_2']
     # start_urls = ['https://www.amazon.com/s?i=kitchen-intl-ship&bbn=16225011011&rh=n%3A%2116225011011%2Cn%3A901590&dc&qid=1570085063&rnid=16225011011&ref=sr_nr_n_10']
-    start_urls = ['https://www.amazon.com/s?i=kitchen-intl-ship&bbn=16225011011&rh=n%3A16225011011%2Cn%3A3206324011&dc&page=161&qid=1570149029&rnid=16225011011&ref=sr_pg_161']
+    # start_urls = ['https://www.amazon.com/s?i=kitchen-intl-ship&bbn=16225011011&rh=n%3A16225011011%2Cn%3A3206324011&dc&page=161&qid=1570149029&rnid=16225011011&ref=sr_pg_161']
+    # start_urls = ['https://www.amazon.com/s?i=kitchen-intl-ship&bbn=16225011011&rh=n%3A16225011011%2Cn%3A510240&dc&page=2&qid=1570176222&rnid=16225011011&ref=sr_pg_2']
+    # start_urls = ['https://www.amazon.com/s?i=kitchen-intl-ship&bbn=16225011011&rh=n%3A16225011011%2Cn%3A510106&dc&page=2&qid=1570177042&rnid=16225011011&ref=sr_pg_2']
+    # start_urls = ['https://www.amazon.com/s?i=kitchen-intl-ship&bbn=16225011011&rh=n%3A16225011011%2Cn%3A3610841&dc&page=2&qid=1570181919&rnid=16225011011&ref=sr_pg_2']
+    start_urls = ['https://www.amazon.com/s?i=kitchen-intl-ship&bbn=16225011011&rh=n%3A16225011011%2Cn%3A10802561&dc&page=2&qid=1570195209&rnid=16225011011&ref=sr_pg_2']
 
     def parse(self, response):
         items = AmazonItem()
