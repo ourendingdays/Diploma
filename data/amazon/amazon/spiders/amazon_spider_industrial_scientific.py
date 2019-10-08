@@ -32,7 +32,9 @@ class AmazonSpiderIndustrialScientific(scrapy.Spider):
     # start_urls = ['https://www.amazon.com/s?i=industrial-intl-ship&bbn=16225012011&rh=n%3A16225012011%2Cn%3A8297370011&dc&page=261&fst=as%3Aoff&qid=1570474669&rnid=16225012011&ref=sr_pg_261']
     # start_urls = ['https://www.amazon.com/s?i=industrial-intl-ship&bbn=16225012011&rh=n%3A16225012011%2Cn%3A16310191&dc&page=2&fst=as%3Aoff&qid=1570479086&rnid=16225012011&ref=sr_pg_2']
     # start_urls = ['https://www.amazon.com/s?i=industrial-intl-ship&bbn=16225012011&rh=n%3A16225012011%2Cn%3A8615538011&dc&page=2&fst=as%3Aoff&qid=1570524718&rnid=16225012011&ref=sr_pg_2']
-    start_urls = ['https://www.amazon.com/s?i=industrial-intl-ship&bbn=16225012011&rh=n%3A16225012011%2Cn%3A8498884011&dc&page=20&fst=as%3Aoff&qid=1570531674&rnid=16225012011&ref=sr_pg_2']
+    # start_urls = ['https://www.amazon.com/s?i=industrial-intl-ship&bbn=16225012011&rh=n%3A16225012011%2Cn%3A8498884011&dc&page=20&fst=as%3Aoff&qid=1570531674&rnid=16225012011&ref=sr_pg_2']
+    # start_urls = ['https://www.amazon.com/s?i=industrial-intl-ship&bbn=16225012011&rh=n%3A16225012011%2Cn%3A393459011&dc&page=2&fst=as%3Aoff&qid=1570562970&rnid=16225012011&ref=sr_pg_2']
+    start_urls = ['https://www.amazon.com/s?i=industrial-intl-ship&bbn=16225012011&rh=n%3A16225012011%2Cn%3A256409011&dc&page=308&fst=as%3Aoff&qid=1570571655&rnid=16225012011&ref=sr_pg_308']
 
     def parse(self, response):
         items = AmazonItem()
