@@ -24,7 +24,15 @@ class AmazonSpiderIndustrialScientific(scrapy.Spider):
     # start_urls = ['https://www.amazon.com/s?i=industrial-intl-ship&bbn=16225012011&rh=n%3A16225012011%2Cn%3A317971011&dc&page=333&fst=as%3Aoff&qid=1570360948&rnid=16225012011&ref=sr_pg_333']
     # start_urls = ['https://www.amazon.com/s?i=industrial-intl-ship&bbn=16225012011&rh=n%3A16225012011%2Cn%3A317970011&dc&page=2&fst=as%3Aoff&qid=1570388109&rnid=16225012011&ref=sr_pg_2']
     # start_urls = ['https://www.amazon.com/s?i=industrial-intl-ship&bbn=16225012011&rh=n%3A16225012011%2Cn%3A256346011&dc&page=2&fst=as%3Aoff&qid=1570390586&rnid=16225012011&ref=sr_pg_2']
-    start_urls = ['https://www.amazon.com/s?i=industrial-intl-ship&bbn=16225012011&rh=n%3A16225012011%2Cn%3A318135011&dc&page=2&fst=as%3Aoff&qid=1570394024&rnid=16225012011&ref=sr_pg_2']
+    # start_urls = ['https://www.amazon.com/s?i=industrial-intl-ship&bbn=16225012011&rh=n%3A16225012011%2Cn%3A318135011&dc&page=150&fst=as%3Aoff&qid=1570394024&rnid=16225012011&ref=sr_pg_2']
+    # start_urls = ['https://www.amazon.com/s?i=industrial-intl-ship&bbn=16225012011&rh=n%3A16225012011%2Cn%3A8553197011&dc&page=2&fst=as%3Aoff&qid=1570437826&rnid=16225012011&ref=sr_pg_2']
+    # start_urls = ['https://www.amazon.com/s?i=industrial-intl-ship&bbn=16225012011&rh=n%3A16225012011%2Cn%3A3021459011&dc&page=2&fst=as%3Aoff&qid=1570446386&rnid=16225012011&ref=sr_pg_2']
+    # start_urls = ['https://www.amazon.com/s?i=industrial-intl-ship&bbn=16225012011&rh=n%3A16225012011%2Cn%3A16310181&dc&page=2&fst=as%3Aoff&qid=1570462742&rnid=16225012011&ref=sr_pg_2']
+    # start_urls = ['https://www.amazon.com/s?i=industrial-intl-ship&bbn=16225012011&rh=n%3A16225012011%2Cn%3A8297371011&dc&page=2&fst=as%3Aoff&qid=1570468594&rnid=16225012011&ref=sr_pg_2']
+    # start_urls = ['https://www.amazon.com/s?i=industrial-intl-ship&bbn=16225012011&rh=n%3A16225012011%2Cn%3A8297370011&dc&page=261&fst=as%3Aoff&qid=1570474669&rnid=16225012011&ref=sr_pg_261']
+    # start_urls = ['https://www.amazon.com/s?i=industrial-intl-ship&bbn=16225012011&rh=n%3A16225012011%2Cn%3A16310191&dc&page=2&fst=as%3Aoff&qid=1570479086&rnid=16225012011&ref=sr_pg_2']
+    # start_urls = ['https://www.amazon.com/s?i=industrial-intl-ship&bbn=16225012011&rh=n%3A16225012011%2Cn%3A8615538011&dc&page=2&fst=as%3Aoff&qid=1570524718&rnid=16225012011&ref=sr_pg_2']
+    start_urls = ['https://www.amazon.com/s?i=industrial-intl-ship&bbn=16225012011&rh=n%3A16225012011%2Cn%3A8498884011&dc&page=20&fst=as%3Aoff&qid=1570531674&rnid=16225012011&ref=sr_pg_2']
 
     def parse(self, response):
         items = AmazonItem()
