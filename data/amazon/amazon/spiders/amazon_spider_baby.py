@@ -19,13 +19,14 @@ class AmazonSpiderBaby(scrapy.Spider):
     # start_urls = ['https://www.amazon.com/s?i=baby-products-intl-ship&bbn=16225005011&rh=n%3A16225005011%2Cn%3A166887011&dc&page=2&fst=as%3Aoff&qid=1570716162&rnid=16225005011&ref=sr_pg_2']
     # start_urls = ['https://www.amazon.com/s?i=baby-products-intl-ship&bbn=16225005011&rh=n%3A16225005011%2Cn%3A166804011&dc&page=2&fst=as%3Aoff&qid=1570716221&rnid=16225005011&ref=sr_pg_2']
     # start_urls = ['https://www.amazon.com/s?i=baby-products-intl-ship&bbn=16225005011&rh=n%3A16225005011%2Cn%3A166863011&dc&page=185&fst=as%3Aoff&qid=1570718985&rnid=16225005011&ref=sr_pg_185']
-    start_urls = ['https://www.amazon.com/s?i=baby-products-intl-ship&bbn=16225005011&rh=n%3A16225005011%2Cn%3A8446318011&dc&page=203&fst=as%3Aoff&qid=1570720884&rnid=16225005011&ref=sr_pg_203']
+    # start_urls = ['https://www.amazon.com/s?i=baby-products-intl-ship&bbn=16225005011&rh=n%3A16225005011%2Cn%3A8446318011&dc&page=2&fst=as%3Aoff&qid=1570782667&rnid=16225005011&ref=sr_pg_2']
+    start_urls = ['https://www.amazon.com/s?i=baby-products-intl-ship&bbn=16225005011&rh=n%3A16225005011%2Cn%3A17726796011&dc&page=2&fst=as%3Aoff&qid=1570784355&rnid=16225005011&ref=sr_pg_2']
 
     def parse(self, response):
         items = AmazonItem()
         next_page_real = response.css(".a-last a").css("::attr(href)").get()
 
-        ad = response.css('.a-size-base-plus::text').extract()
+        ad = response.css('.a-color-base.a-text-normal::text').extract()
 
         for i in range(len(ad)):
             items['ad'] = ad[i]
