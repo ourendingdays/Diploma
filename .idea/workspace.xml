@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a0fbbf6e-d701-4170-b1ca-14e8cb2d27e0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/amazon/amazon/spiders/amazon_spider_women_fashion.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/amazon/amazon/spiders/amazon_spider_women_fashion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/amazon/amazon/spiders/amazon_spider_tools_home.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/amazon/amazon/spiders/amazon_spider_tools_home.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,17 +72,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-22" />
-    <option name="y" value="22" />
-    <option name="width" value="1346" />
-    <option name="height" value="688" />
-  </component>
+  <component name="ProjectId" id="1SHLpK0vqtKTjSaAszpCnbtsTDR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/data/amazon/scrapped_data" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -101,11 +96,11 @@
       <recent name="D:\Python projects\DIPLOMA\data\greebo\greebo\spiders" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data/amazon/scrapped_data/women-fashion__handbags-wallets" />
       <recent name="D:\Python projects\DIPLOMA\data\amazon\scrapped_data\women-fashion__jewelry" />
       <recent name="D:\Python projects\DIPLOMA\data\amazon\scrapped_data\women_clothing__shoes" />
       <recent name="D:\Python projects\DIPLOMA\data\amazon\scrapped_data\luggage" />
       <recent name="D:\Python projects\DIPLOMA\data\amazon\scrapped_data\baby" />
-      <recent name="D:\Python projects\DIPLOMA\data\amazon\scrapped_data\industrial-scientific" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -206,6 +201,9 @@
       <workItem from="1570692941154" duration="20947000" />
       <workItem from="1570782387387" duration="39305000" />
       <workItem from="1570957272240" duration="15644000" />
+      <workItem from="1571215757947" duration="35000" />
+      <workItem from="1571215793607" duration="866000" />
+      <workItem from="1571851839511" duration="6522000" />
     </task>
     <servers />
   </component>
@@ -217,7 +215,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
