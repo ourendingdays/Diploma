@@ -39,19 +39,12 @@ class AmazonSpiderToolsHome(scrapy.Spider):
     # start_urls = ['https://www.amazon.com/s?i=tools-intl-ship&bbn=256643011&rh=n%3A256643011%2Cn%3A%21468240%2Cn%3A495266%2Cn%3A6396120011&dc&fst=as%3Aoff&qid=1571904172&rnid=495266&ref=sr_nr_n_13']
     # start_urls = ['https://www.amazon.com/s?i=tools-intl-ship&bbn=256643011&rh=n%3A256643011%2Cn%3A%21468240%2Cn%3A495266%2Cn%3A17854127011&dc&fst=as%3Aoff&qid=1571904172&rnid=495266&ref=sr_nr_n_14']
     # start_urls = ['https://www.amazon.com/s?i=tools-intl-ship&bbn=256643011&rh=n%3A256643011%2Cn%3A%21468240%2Cn%3A495266%2Cn%3A3736711&dc&fst=as%3Aoff&qid=1571904172&rnid=495266&ref=sr_nr_n_15']
-    start_urls = ['https://www.amazon.com/s?i=tools-intl-ship&bbn=256643011&rh=n%3A256643011%2Cn%3A468240%2Cn%3A495266%2Cn%3A495324&dc&page=48&fst=as%3Aoff&qid=1571931345&rnid=495266&ref=sr_pg_48']
-
-
-
-
-
-
-
-
-
-
-
-
+    # start_urls = ['https://www.amazon.com/s?i=tools-intl-ship&bbn=256643011&rh=n%3A256643011%2Cn%3A468240%2Cn%3A495266%2Cn%3A495324&dc&page=304&fst=as%3Aoff&qid=1571933926&rnid=495266&ref=sr_pg_304']
+    # start_urls = ['https://www.amazon.com/s?i=tools-intl-ship&bbn=256643011&rh=n%3A256643011%2Cn%3A468240%2Cn%3A495266%2Cn%3A306719011&dc&page=357&fst=as%3Aoff&qid=1571952839&rnid=495266&ref=sr_pg_357']
+    # start_urls = ['https://www.amazon.com/s?i=tools-intl-ship&bbn=256643011&rh=n%3A256643011%2Cn%3A%21468240%2Cn%3A495266%2Cn%3A495336&dc&fst=as%3Aoff&qid=1571930069&rnid=495266&ref=sr_nr_n_18']
+    # start_urls = ['https://www.amazon.com/s?i=tools-intl-ship&bbn=256643011&rh=n%3A256643011%2Cn%3A%21468240%2Cn%3A495266%2Cn%3A495340&dc&fst=as%3Aoff&qid=1571930069&rnid=495266&ref=sr_nr_n_19']
+    # start_urls = ['https://www.amazon.com/s?i=tools-intl-ship&bbn=256643011&rh=n%3A256643011%2Cn%3A%21468240%2Cn%3A495266%2Cn%3A6396126011&dc&fst=as%3Aoff&qid=1571930069&rnid=495266&ref=sr_nr_n_20']
+    start_urls = ['https://www.amazon.com/s?i=tools-intl-ship&bbn=256643011&rh=n%3A256643011%2Cn%3A468240%2Cn%3A495266%2Cn%3A6497674011&dc&page=371&fst=as%3Aoff&qid=1571959277&rnid=495266&ref=sr_pg_371']
 
 
 
