@@ -4,6 +4,9 @@
     <list default="true" id="a0fbbf6e-d701-4170-b1ca-14e8cb2d27e0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/amazon/amazon/spiders/amazon_spider_tools_home.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/amazon/amazon/spiders/amazon_spider_tools_home.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/amazon/amazon_tools-home_electrical_breakers-fuses.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/amazon/amazon_tools-home_electrical_breakers-fuses.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/amazon/amazon_tools-home_electrical_breakers-fuses1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/amazon/amazon_tools-home_electrical_electrical-wire.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/amazon/amazon_tools-home_electrical_electrical-wire.csv" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,43 +34,6 @@
         <option value="Python Script" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>Matt &amp; Nat Trek Travel Bag</find>
-      <find>Snugpak Luxury Wash Bag</find>
-      <find>Skip Hop Unisex Zoo Pack Backpack Blake Bear One Size</find>
-      <find>&quot;Ubimed Lifenest Sleep System, White&quot;</find>
-      <find>&quot;Dream On Me Sleigh Toddler Bed w/Storage Drawer, Navy&quot;</find>
-      <find>RoSK Woobee Plush Blanket (Cherry Blossom)</find>
-      <find>Jessica Simpson Selena Backpack</find>
-      <find>Alex and Ani Baltimore Orioles Cap Logo Expandable Bangle Bracelet</find>
-      <find>Matr Boomie JMB 018b Rustic Cuff Silver</find>
-      <find>FUNRUN JEWELRY 3 Sets Stretch Bead Bracelets for Women Girls Multilayer Stackable Bracelet Set Bohemian</find>
-      <find>Glory Qin Heart Bracelet Beaded Bracelet Elastic Charm Bracelet Gemstone Bracelet for Women Stretch Bracelet</find>
-      <find>Napier Women's Gold/Blue Glass Stretch Bracelet</find>
-      <find>Third Time Charm Best Friend Charm BFF Friendship Beads For Bracelets</find>
-      <find>KUIYAI Peace in Christ Charm Bracelet 2018 LDS Youth Theme Gift</find>
-      <find>YoTreasure Rainbow Moonstone 925 Sterling Silver Leaf Ring</find>
-      <find>&quot;Official Breast Cancer Awareness Pink Lapel Pin - 10, 50, 100 Units&quot;</find>
-      <find>EVER FAITH</find>
-      <find>American Flag Patriotic Soaring Eagle Enamel Lapel Pin</find>
-      <find>&quot;6 Pieces Sweater Shawl Clips Set, include Double Faux Pearl Brooch Pins and Crystal Shawl Clips for Women Girls Costume Accessory&quot;</find>
-      <find>&quot;Created Crystal Brooch Fancy Vintage Style Flower Brooch Pin for Women, girls, ladies Blue color&quot;</find>
-      <find>Lot 6pcs Multicolor Rhinestone Crystal Butterfly Brooch Pin Set for Women</find>
-      <find>Ellen Tracy Sterling Silver Polished Concave Hoop Earrings</find>
-      <find>&quot;Flat Bar Leaf Design Dangles, Metallic Drop Polished Modern Earrings&quot;</find>
-      <find>Sterling Silver Modern Filigree Design Genuine Amethyst Ladies Ring</find>
-      <find>&quot;Classic Fit 10K Gold Wedding Band, 3mm,White&quot;</find>
-      <find>Jewel Tie 14K Yellow Gold Good Luck Hand Charm - (0.87 in x 0.2 in)</find>
-      <find>ISAAC WESTMAN 8mm Polished Black Onyx Necklace | .925 Sterling Silver</find>
-      <find>&quot;Pierced Owl 18GA 5/16&quot;&quot; Three Opal Gem Nose, Cartilage, Septum Bendable Annealed Ring&quot;</find>
-      <find>Awinrel Organic Wood Ear Gauges Saddle Plugs Tunnel Stretcher Expander Body Piercing Jewelry 4 Pieces Set</find>
-      <find>Udalyn 6 Pcs Mixed Stone Ear Plugs Tunnels Body Piercing Set Semi-Precious Jewelry for Men Women</find>
-    </findStrings>
-    <dirStrings>
-      <dir>D:\Python projects\DIPLOMA\data\ebay</dir>
-    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -203,7 +169,8 @@
       <workItem from="1570957272240" duration="15644000" />
       <workItem from="1571215757947" duration="35000" />
       <workItem from="1571215793607" duration="866000" />
-      <workItem from="1571851839511" duration="6522000" />
+      <workItem from="1571851839511" duration="6634000" />
+      <workItem from="1571903758488" duration="7199000" />
     </task>
     <servers />
   </component>
