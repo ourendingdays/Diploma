@@ -44,15 +44,17 @@ class AmazonSpiderToolsHome(scrapy.Spider):
     # start_urls = ['https://www.amazon.com/s?i=tools-intl-ship&bbn=256643011&rh=n%3A256643011%2Cn%3A%21468240%2Cn%3A495266%2Cn%3A495336&dc&fst=as%3Aoff&qid=1571930069&rnid=495266&ref=sr_nr_n_18']
     # start_urls = ['https://www.amazon.com/s?i=tools-intl-ship&bbn=256643011&rh=n%3A256643011%2Cn%3A%21468240%2Cn%3A495266%2Cn%3A495340&dc&fst=as%3Aoff&qid=1571930069&rnid=495266&ref=sr_nr_n_19']
     # start_urls = ['https://www.amazon.com/s?i=tools-intl-ship&bbn=256643011&rh=n%3A256643011%2Cn%3A%21468240%2Cn%3A495266%2Cn%3A6396126011&dc&fst=as%3Aoff&qid=1571930069&rnid=495266&ref=sr_nr_n_20']
-    start_urls = ['https://www.amazon.com/s?i=tools-intl-ship&bbn=256643011&rh=n%3A256643011%2Cn%3A468240%2Cn%3A495266%2Cn%3A6497674011&dc&page=371&fst=as%3Aoff&qid=1571959277&rnid=495266&ref=sr_pg_371']
-
-
-
-
-
-
-
-
+    # start_urls = ['https://www.amazon.com/s?i=tools-intl-ship&bbn=256643011&rh=n%3A256643011%2Cn%3A%21468240%2Cn%3A511228%2Cn%3A4621633011&dc&fst=as%3Aoff&qid=1571995262&rnid=511228&ref=sr_nr_n_1']
+    # start_urls = ['https://www.amazon.com/s?i=tools-intl-ship&bbn=256643011&rh=n%3A256643011%2Cn%3A468240%2Cn%3A511228%2Cn%3A13397651&dc&page=97&fst=as%3Aoff&qid=1572003437&rnid=511228&ref=sr_pg_97']
+    # start_urls = ['https://www.amazon.com/s?i=tools-intl-ship&bbn=256643011&rh=n%3A256643011%2Cn%3A468240%2Cn%3A511228%2Cn%3A3755001&dc&page=207&fst=as%3Aoff&qid=1572009547&rnid=511228&ref=sr_pg_207']
+    # start_urls = ['https://www.amazon.com/s?i=tools-intl-ship&bbn=256643011&rh=n%3A256643011%2Cn%3A468240%2Cn%3A511228%2Cn%3A16412261&dc&page=77&fst=as%3Aoff&qid=1572010530&rnid=511228&ref=sr_pg_77']
+    # start_urls = ['https://www.amazon.com/s?i=tools-intl-ship&bbn=256643011&rh=n%3A256643011%2Cn%3A%21468240%2Cn%3A511228%2Cn%3A2380871011&dc&fst=as%3Aoff&qid=1571995262&rnid=511228&ref=sr_nr_n_5']
+    # start_urls = ['https://www.amazon.com/s?i=tools-intl-ship&bbn=256643011&rh=n%3A256643011%2Cn%3A%21468240%2Cn%3A511228%2Cn%3A507844&dc&fst=as%3Aoff&qid=1571995262&rnid=511228&ref=sr_nr_n_6']
+    # start_urls = ['https://www.amazon.com/s?i=tools-intl-ship&bbn=256643011&rh=n%3A256643011%2Cn%3A%21468240%2Cn%3A511228%2Cn%3A17568921011&dc&fst=as%3Aoff&qid=1571995262&rnid=511228&ref=sr_nr_n_7']
+    # start_urls = ['https://www.amazon.com/s?i=tools-intl-ship&bbn=256643011&rh=n%3A256643011%2Cn%3A468240%2Cn%3A511228%2Cn%3A511276&dc&page=378&fst=as%3Aoff&qid=1572037444&rnid=511228&ref=sr_pg_378']
+    # start_urls = ['https://www.amazon.com/s?i=tools-intl-ship&bbn=256643011&rh=n%3A256643011%2Cn%3A468240%2Cn%3A511228%2Cn%3A511276&dc&page=386&fst=as%3Aoff&qid=1572039870&rnid=511228&ref=sr_pg_386']
+    # start_urls = ['https://www.amazon.com/s?i=tools-intl-ship&bbn=256643011&rh=n%3A256643011%2Cn%3A%21468240%2Cn%3A511228%2Cn%3A3180261&dc&fst=as%3Aoff&qid=1571995262&rnid=511228&ref=sr_nr_n_9']
+    start_urls = ['https://www.amazon.com/s?i=tools-intl-ship&bbn=256643011&rh=n%3A256643011%2Cn%3A468240%2Cn%3A511228%2Cn%3A3180261&dc&page=195&fst=as%3Aoff&qid=1572042728&rnid=511228&ref=sr_pg_195']
 
 
     def parse(self, response):
