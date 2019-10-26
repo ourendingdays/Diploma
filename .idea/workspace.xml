@@ -4,6 +4,11 @@
     <list default="true" id="a0fbbf6e-d701-4170-b1ca-14e8cb2d27e0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/amazon/amazon/spiders/amazon_spider_tools_home.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/amazon/amazon/spiders/amazon_spider_tools_home.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/amazon/amazon_tools-home_hardware_door-locks.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/amazon/amazon_tools-home_hardware_door-locks.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/amazon/amazon_tools-home_hardware_door-locks2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/amazon/amazon_tools-home_hardware_door-locks3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/amazon/amazon_tools-home_hardware_flashlight.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/amazon/amazon_tools-home_hardware_flashlight.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/amazon/amazon_tools-home_hardware_flashlight2.csv" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -168,7 +173,9 @@
       <workItem from="1571215793607" duration="866000" />
       <workItem from="1571851839511" duration="6634000" />
       <workItem from="1571903758488" duration="14127000" />
-      <workItem from="1571986284824" duration="7766000" />
+      <workItem from="1571986284824" duration="8036000" />
+      <workItem from="1572079716005" duration="2954000" />
+      <workItem from="1572125205505" duration="2742000" />
     </task>
     <servers />
   </component>
