@@ -61,7 +61,57 @@ class AmazonSpiderToolsHome(scrapy.Spider):
     # start_urls = ['https://www.amazon.com/s?i=tools-intl-ship&bbn=256643011&rh=n%3A256643011%2Cn%3A%21468240%2Cn%3A511228%2Cn%3A16412711&dc&fst=as%3Aoff&qid=1572082012&rnid=511228&ref=sr_nr_n_13']
     # start_urls = ['https://www.amazon.com/s?i=tools-intl-ship&bbn=256643011&rh=n%3A256643011%2Cn%3A%21468240%2Cn%3A511228%2Cn%3A3742321&dc&fst=as%3Aoff&qid=1572125289&rnid=511228&ref=sr_nr_n_14']
     # start_urls = ['https://www.amazon.com/s?i=tools-intl-ship&bbn=256643011&rh=n%3A256643011%2Cn%3A%21468240%2Cn%3A511228%2Cn%3A383599011&dc&fst=as%3Aoff&qid=1572125289&rnid=511228&ref=sr_nr_n_15']
-    start_urls = ['https://www.amazon.com/s?i=tools-intl-ship&bbn=256643011&rh=n%3A256643011%2Cn%3A468240%2Cn%3A511228%2Cn%3A511378&dc&page=52&fst=as%3Aoff&qid=1572128766&rnid=511228&ref=sr_pg_52']
+    # start_urls = ['https://www.amazon.com/s?i=tools-intl-ship&bbn=256643011&rh=n%3A256643011%2Cn%3A468240%2Cn%3A511228%2Cn%3A511378&dc&page=52&fst=as%3Aoff&qid=1572128766&rnid=511228&ref=sr_pg_52']
+    # start_urls = ['https://www.amazon.com/s?i=tools-intl-ship&bbn=256643011&rh=n%3A256643011%2Cn%3A%21468240%2Cn%3A511228%2Cn%3A511352&dc&fst=as%3Aoff&qid=1572163432&rnid=511228&ref=sr_nr_n_17']
+    # start_urls = ['https://www.amazon.com/s?i=tools-intl-ship&bbn=256643011&rh=n%3A256643011%2Cn%3A%21468240%2Cn%3A511228%2Cn%3A2257857011&dc&fst=as%3Aoff&qid=1572163432&rnid=511228&ref=sr_nr_n_18']
+    # start_urls = ['https://www.amazon.com/s?i=tools-intl-ship&bbn=256643011&rh=n%3A256643011%2Cn%3A%21468240%2Cn%3A511228%2Cn%3A517826&dc&fst=as%3Aoff&qid=1572163432&rnid=511228&ref=sr_nr_n_19']
+    # start_urls = ['https://www.amazon.com/s?i=tools-intl-ship&bbn=256643011&rh=n%3A256643011%2Cn%3A%21468240%2Cn%3A511228%2Cn%3A16410641&dc&fst=as%3Aoff&qid=1572163432&rnid=511228&ref=sr_nr_n_20']
+    # start_urls = ['https://www.amazon.com/s?i=tools-intl-ship&bbn=256643011&rh=n%3A256643011%2Cn%3A468240%2Cn%3A511228%2Cn%3A511388&dc&page=310&fst=as%3Aoff&qid=1572172908&rnid=511228&ref=sr_pg_310']
+    start_urls = ['https://www.amazon.com/s?i=tools-intl-ship&bbn=256643011&rh=n%3A256643011%2Cn%3A%21468240%2Cn%3A511228%2Cn%3A517828&dc&fst=as%3Aoff&qid=1572163432&rnid=511228&ref=sr_nr_n_22']
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -77,5 +127,5 @@ class AmazonSpiderToolsHome(scrapy.Spider):
             yield items
 
         if next_page_real is not None:
-            time.sleep(2)
+            time.sleep(1)
             yield response.follow(next_page_real, callback=self.parse)
