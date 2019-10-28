@@ -67,15 +67,11 @@ class AmazonSpiderToolsHome(scrapy.Spider):
     # start_urls = ['https://www.amazon.com/s?i=tools-intl-ship&bbn=256643011&rh=n%3A256643011%2Cn%3A%21468240%2Cn%3A511228%2Cn%3A517826&dc&fst=as%3Aoff&qid=1572163432&rnid=511228&ref=sr_nr_n_19']
     # start_urls = ['https://www.amazon.com/s?i=tools-intl-ship&bbn=256643011&rh=n%3A256643011%2Cn%3A%21468240%2Cn%3A511228%2Cn%3A16410641&dc&fst=as%3Aoff&qid=1572163432&rnid=511228&ref=sr_nr_n_20']
     # start_urls = ['https://www.amazon.com/s?i=tools-intl-ship&bbn=256643011&rh=n%3A256643011%2Cn%3A468240%2Cn%3A511228%2Cn%3A511388&dc&page=310&fst=as%3Aoff&qid=1572172908&rnid=511228&ref=sr_pg_310']
-    start_urls = ['https://www.amazon.com/s?i=tools-intl-ship&bbn=256643011&rh=n%3A256643011%2Cn%3A%21468240%2Cn%3A511228%2Cn%3A517828&dc&fst=as%3Aoff&qid=1572163432&rnid=511228&ref=sr_nr_n_22']
-
-
-
-
-
-
-
-
+    # start_urls = ['https://www.amazon.com/s?i=tools-intl-ship&bbn=256643011&rh=n%3A256643011%2Cn%3A%21468240%2Cn%3A511228%2Cn%3A517828&dc&fst=as%3Aoff&qid=1572163432&rnid=511228&ref=sr_nr_n_22']
+    # start_urls = ['https://www.amazon.com/s?i=tools-intl-ship&bbn=256643011&rh=n%3A256643011%2Cn%3A468240%2Cn%3A3754161%2Cn%3A680350011&dc&page=179&fst=as%3Aoff&qid=1572178803&rnid=3754161&ref=sr_pg_179']
+    # start_urls = ['https://www.amazon.com/s?i=tools-intl-ship&bbn=256643011&rh=n%3A256643011%2Cn%3A468240%2Cn%3A3754161%2Cn%3A680340011&dc&page=271&fst=as%3Aoff&qid=1572249345&rnid=3754161&ref=sr_pg_271']
+    # start_urls = ['https://www.amazon.com/s?i=tools-intl-ship&bbn=256643011&rh=n%3A256643011%2Cn%3A%21468240%2Cn%3A3754161%2Cn%3A13397631&dc&fst=as%3Aoff&qid=1572249741&rnid=3754161&ref=sr_nr_n_3']
+    start_urls = ['https://www.amazon.com/s?i=tools-intl-ship&bbn=256643011&rh=n%3A256643011%2Cn%3A%21468240%2Cn%3A3754161%2Cn%3A680338011&dc&fst=as%3Aoff&qid=1572249741&rnid=3754161&ref=sr_nr_n_4']
 
 
 

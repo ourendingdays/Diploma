@@ -2,28 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0fbbf6e-d701-4170-b1ca-14e8cb2d27e0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data/amazon/scrapped_data/tools-home__hardware/amazon_tools-home_hardware_padlocks-hasps.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/amazon/amazon/spiders/amazon_spider_tools_home.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/amazon/amazon/spiders/amazon_spider_tools_home.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/amazon/amazon_tools-home_hardware_adhesives-sealers.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/amazon/scrapped_data/tools-home__hardware/amazon_tools-home_hardware_adhesives-sealers.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/amazon/amazon_tools-home_hardware_adress-numbers.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/amazon/scrapped_data/tools-home__hardware/amazon_tools-home_hardware_adress-numbers.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/amazon/amazon_tools-home_hardware_bathroom.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/amazon/scrapped_data/tools-home__hardware/amazon_tools-home_hardware_bathroom.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/amazon/amazon_tools-home_hardware_braces.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/amazon/scrapped_data/tools-home__hardware/amazon_tools-home_hardware_braces.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/amazon/amazon_tools-home_hardware_cabinet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/amazon/scrapped_data/tools-home__hardware/amazon_tools-home_hardware_cabinet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/amazon/amazon_tools-home_hardware_cable-ties.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/amazon/scrapped_data/tools-home__hardware/amazon_tools-home_hardware_cable-ties.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/amazon/amazon_tools-home_hardware_clock.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/amazon/scrapped_data/tools-home__hardware/amazon_tools-home_hardware_clock.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/amazon/amazon_tools-home_hardware_door-locks.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/amazon/scrapped_data/tools-home__hardware/amazon_tools-home_hardware_door-locks.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/amazon/amazon_tools-home_hardware_flashlight.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/amazon/scrapped_data/tools-home__hardware/amazon_tools-home_hardware_flashlight.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/amazon/amazon_tools-home_hardware_furniture.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/amazon/scrapped_data/tools-home__hardware/amazon_tools-home_hardware_furniture.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/amazon/amazon_tools-home_hardware_gate.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/amazon/scrapped_data/tools-home__hardware/amazon_tools-home_hardware_gate.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/amazon/amazon_tools-home_hardware_grommets.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/amazon/scrapped_data/tools-home__hardware/amazon_tools-home_hardware_grommets.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/amazon/amazon_tools-home_hardware_hook.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/amazon/scrapped_data/tools-home__hardware/amazon_tools-home_hardware_hook.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/amazon/amazon_tools-home_hardware_mailboxes.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/amazon/scrapped_data/tools-home__hardware/amazon_tools-home_hardware_mailboxes.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/amazon/amazon_tools-home_hardware_nails-screws-fasteners.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/amazon/scrapped_data/tools-home__hardware/amazon_tools-home_hardware_nails-screws-fasteners.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/amazon/amazon_tools-home_hardware_nails-screws-fasteners2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/amazon/amazon_tools-home_hardware_nails-screws-fasteners3.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/amazon/amazon_tools-home_hardware_padlocks-hasps.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/amazon/amazon_tools-home_hardware_padlocks-hasps2.csv" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -191,7 +171,7 @@
       <workItem from="1571986284824" duration="8036000" />
       <workItem from="1572079716005" duration="2954000" />
       <workItem from="1572125205505" duration="3103000" />
-      <workItem from="1572163370776" duration="3954000" />
+      <workItem from="1572163370776" duration="8264000" />
     </task>
     <servers />
   </component>
