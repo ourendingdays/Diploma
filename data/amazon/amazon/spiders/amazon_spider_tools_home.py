@@ -71,30 +71,15 @@ class AmazonSpiderToolsHome(scrapy.Spider):
     # start_urls = ['https://www.amazon.com/s?i=tools-intl-ship&bbn=256643011&rh=n%3A256643011%2Cn%3A468240%2Cn%3A3754161%2Cn%3A680350011&dc&page=179&fst=as%3Aoff&qid=1572178803&rnid=3754161&ref=sr_pg_179']
     # start_urls = ['https://www.amazon.com/s?i=tools-intl-ship&bbn=256643011&rh=n%3A256643011%2Cn%3A468240%2Cn%3A3754161%2Cn%3A680340011&dc&page=271&fst=as%3Aoff&qid=1572249345&rnid=3754161&ref=sr_pg_271']
     # start_urls = ['https://www.amazon.com/s?i=tools-intl-ship&bbn=256643011&rh=n%3A256643011%2Cn%3A%21468240%2Cn%3A3754161%2Cn%3A13397631&dc&fst=as%3Aoff&qid=1572249741&rnid=3754161&ref=sr_nr_n_3']
-    start_urls = ['https://www.amazon.com/s?i=tools-intl-ship&bbn=256643011&rh=n%3A256643011%2Cn%3A%21468240%2Cn%3A3754161%2Cn%3A680338011&dc&fst=as%3Aoff&qid=1572249741&rnid=3754161&ref=sr_nr_n_4']
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    # start_urls = ['https://www.amazon.com/s?i=tools-intl-ship&bbn=256643011&rh=n%3A256643011%2Cn%3A468240%2Cn%3A322525011&dc&page=211&fst=as%3Aoff&qid=1572251181&rnid=468240&ref=sr_pg_211']
+    # start_urls = ['https://www.amazon.com/s?i=tools-intl-ship&bbn=256643011&rh=n%3A256643011%2Cn%3A%21468240%2Cn%3A495224%2Cn%3A495362&dc&fst=as%3Aoff&qid=1572269706&rnid=495224&ref=sr_nr_n_1']
+    # start_urls = ['https://www.amazon.com/s?i=tools-intl-ship&bbn=256643011&rh=n%3A256643011%2Cn%3A%21468240%2Cn%3A495224%2Cn%3A5486428011&dc&fst=as%3Aoff&qid=1572269706&rnid=495224&ref=sr_nr_n_2']
+    # start_urls = ['https://www.amazon.com/s?i=tools-intl-ship&bbn=256643011&rh=n%3A256643011%2Cn%3A%21468240%2Cn%3A495224%2Cn%3A5772192011&dc&fst=as%3Aoff&qid=1572269706&rnid=495224&ref=sr_nr_n_3']
+    # start_urls = ['https://www.amazon.com/s?i=tools-intl-ship&bbn=256643011&rh=n%3A256643011%2Cn%3A468240%2Cn%3A495224%2Cn%3A3736561&dc&page=88&fst=as%3Aoff&qid=1572275295&rnid=495224&ref=sr_pg_88']
+    # start_urls = ['https://www.amazon.com/s?i=tools-intl-ship&bbn=256643011&rh=n%3A256643011%2Cn%3A468240%2Cn%3A495224%2Cn%3A3736551&dc&page=307&fst=as%3Aoff&qid=1572298592&rnid=495224&ref=sr_pg_307']
+    # start_urls = ['https://www.amazon.com/s?i=tools-intl-ship&bbn=256643011&rh=n%3A256643011%2Cn%3A468240%2Cn%3A495224%2Cn%3A3736531&dc&page=390&fst=as%3Aoff&qid=1572335618&rnid=495224&ref=sr_pg_390']
+    # start_urls = ['https://www.amazon.com/s?i=tools-intl-ship&bbn=256643011&rh=n%3A256643011%2Cn%3A468240%2Cn%3A495224%2Cn%3A495236&dc&page=124&fst=as%3Aoff&qid=1572336277&rnid=495224&ref=sr_pg_124']
+    start_urls = ['https://www.amazon.com/s?i=tools-intl-ship&bbn=256643011&rh=n%3A256643011%2Cn%3A468240%2Cn%3A495224%2Cn%3A5486429011&dc&page=307&fst=as%3Aoff&qid=1572355317&rnid=495224&ref=sr_pg_307']
 
 
 

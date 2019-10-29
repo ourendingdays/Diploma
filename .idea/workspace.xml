@@ -52,18 +52,18 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/data/amazon/scrapped_data/tools-home__hardware" />
-      <recent name="$PROJECT_DIR$/data/amazon/scrapped_data/tools-home__electrical" />
-      <recent name="$PROJECT_DIR$/data/amazon/scrapped_data/women-fashion__handbags-wallets" />
-      <recent name="D:\Python projects\DIPLOMA\data\amazon\scrapped_data\women-fashion__jewelry" />
-      <recent name="D:\Python projects\DIPLOMA\data\amazon\scrapped_data\women_clothing__shoes" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/data/amazon/scrapped_data" />
       <recent name="D:\Python projects\DIPLOMA\data\amazon\amazon\spiders" />
       <recent name="D:\Python projects\DIPLOMA\data" />
       <recent name="D:\Python projects\DIPLOMA\data\greebo\greebo\spiders" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data/amazon/scrapped_data/tools-home__lighting" />
+      <recent name="$PROJECT_DIR$/data/amazon/scrapped_data/tools-home__kitchen-bath" />
+      <recent name="$PROJECT_DIR$/data/amazon/scrapped_data/tools-home__hardware" />
+      <recent name="$PROJECT_DIR$/data/amazon/scrapped_data/tools-home__electrical" />
+      <recent name="$PROJECT_DIR$/data/amazon/scrapped_data/women-fashion__handbags-wallets" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -171,7 +171,10 @@
       <workItem from="1571986284824" duration="8036000" />
       <workItem from="1572079716005" duration="2954000" />
       <workItem from="1572125205505" duration="3103000" />
-      <workItem from="1572163370776" duration="8264000" />
+      <workItem from="1572163370776" duration="8964000" />
+      <workItem from="1572268995060" duration="4153000" />
+      <workItem from="1572296774845" duration="3897000" />
+      <workItem from="1572334313812" duration="6880000" />
     </task>
     <servers />
   </component>
