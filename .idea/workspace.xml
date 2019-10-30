@@ -40,7 +40,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/data/amazon/scrapped_data" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -52,18 +52,18 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data/amazon/scrapped_data/tools-home" />
+      <recent name="$PROJECT_DIR$/data/amazon/scrapped_data/tools-home__power-hand-tools" />
+      <recent name="$PROJECT_DIR$/data/amazon/scrapped_data/tools-home__lighting" />
+      <recent name="$PROJECT_DIR$/data/amazon/scrapped_data/tools-home__kitchen-bath" />
+      <recent name="$PROJECT_DIR$/data/amazon/scrapped_data/tools-home__hardware" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/data/amazon/scrapped_data" />
       <recent name="D:\Python projects\DIPLOMA\data\amazon\amazon\spiders" />
       <recent name="D:\Python projects\DIPLOMA\data" />
       <recent name="D:\Python projects\DIPLOMA\data\greebo\greebo\spiders" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/data/amazon/scrapped_data/tools-home__lighting" />
-      <recent name="$PROJECT_DIR$/data/amazon/scrapped_data/tools-home__kitchen-bath" />
-      <recent name="$PROJECT_DIR$/data/amazon/scrapped_data/tools-home__hardware" />
-      <recent name="$PROJECT_DIR$/data/amazon/scrapped_data/tools-home__electrical" />
-      <recent name="$PROJECT_DIR$/data/amazon/scrapped_data/women-fashion__handbags-wallets" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -174,7 +174,8 @@
       <workItem from="1572163370776" duration="8964000" />
       <workItem from="1572268995060" duration="4153000" />
       <workItem from="1572296774845" duration="3897000" />
-      <workItem from="1572334313812" duration="6880000" />
+      <workItem from="1572334313812" duration="11812000" />
+      <workItem from="1572422667303" duration="7258000" />
     </task>
     <servers />
   </component>
