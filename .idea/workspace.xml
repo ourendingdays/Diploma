@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0fbbf6e-d701-4170-b1ca-14e8cb2d27e0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/data/amazon/scrapped_data/tools-home/amazon_tools-home_welding-soldering.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/amazon/amazon/spiders/amazon_spider_tools_home.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/amazon/amazon/spiders/amazon_spider_tools_home.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/amazon/amazon_tools-home_welding-soldering.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/amazon/scrapped_data/tools-home/amazon_tools-home_kitchen-bath-fixtures_light-bulbs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/amazon/scrapped_data/tools-home/amazon_tools-home_light-bulbs.csv" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,18 +55,18 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/data/amazon/scrapped_data/tools-home" />
-      <recent name="$PROJECT_DIR$/data/amazon/scrapped_data/tools-home__power-hand-tools" />
-      <recent name="$PROJECT_DIR$/data/amazon/scrapped_data/tools-home__lighting" />
-      <recent name="$PROJECT_DIR$/data/amazon/scrapped_data/tools-home__kitchen-bath" />
-      <recent name="$PROJECT_DIR$/data/amazon/scrapped_data/tools-home__hardware" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/data/amazon/scrapped_data" />
       <recent name="D:\Python projects\DIPLOMA\data\amazon\amazon\spiders" />
       <recent name="D:\Python projects\DIPLOMA\data" />
       <recent name="D:\Python projects\DIPLOMA\data\greebo\greebo\spiders" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data/amazon/scrapped_data/tools-home__rough-plumbing" />
+      <recent name="$PROJECT_DIR$/data/amazon/scrapped_data/tools-home" />
+      <recent name="$PROJECT_DIR$/data/amazon/scrapped_data/tools-home__power-hand-tools" />
+      <recent name="$PROJECT_DIR$/data/amazon/scrapped_data/tools-home__lighting" />
+      <recent name="$PROJECT_DIR$/data/amazon/scrapped_data/tools-home__kitchen-bath" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -175,7 +178,8 @@
       <workItem from="1572268995060" duration="4153000" />
       <workItem from="1572296774845" duration="3897000" />
       <workItem from="1572334313812" duration="11812000" />
-      <workItem from="1572422667303" duration="7258000" />
+      <workItem from="1572422667303" duration="8391000" />
+      <workItem from="1572511219146" duration="7490000" />
     </task>
     <servers />
   </component>
