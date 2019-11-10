@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0fbbf6e-d701-4170-b1ca-14e8cb2d27e0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/data/amazon/amazon/spiders/amazon_smart-home.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/amazon/amazon/spiders/amazon_sports-outdoors.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/amazon/amazon/spiders/amazon_spider_tools_home.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/amazon/amazon/spiders/amazon_spider_tools_home.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/amazon/amazon_tools-home_rough-plumbing_water-pumps-access.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/amazon/scrapped_data/tools-home__rough-plumbing/amazon_tools-home_rough-plumbing_water-pumps-access.csv" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +41,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/data/amazon/scrapped_data" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/data/amazon/amazon/spiders" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -53,18 +53,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/data/amazon/scrapped_data" />
-      <recent name="D:\Python projects\DIPLOMA\data\amazon\amazon\spiders" />
-      <recent name="D:\Python projects\DIPLOMA\data" />
-      <recent name="D:\Python projects\DIPLOMA\data\greebo\greebo\spiders" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/data/amazon/scrapped_data/tools-home__safety-security" />
       <recent name="$PROJECT_DIR$/data/amazon/scrapped_data/tools-home__rough-plumbing" />
       <recent name="$PROJECT_DIR$/data/amazon/scrapped_data/tools-home" />
       <recent name="$PROJECT_DIR$/data/amazon/scrapped_data/tools-home__power-hand-tools" />
       <recent name="$PROJECT_DIR$/data/amazon/scrapped_data/tools-home__lighting" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data/amazon/amazon/spiders" />
+      <recent name="$PROJECT_DIR$/data/amazon/scrapped_data" />
+      <recent name="D:\Python projects\DIPLOMA\data\amazon\amazon\spiders" />
+      <recent name="D:\Python projects\DIPLOMA\data" />
+      <recent name="D:\Python projects\DIPLOMA\data\greebo\greebo\spiders" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -179,7 +180,8 @@
       <workItem from="1572422667303" duration="8391000" />
       <workItem from="1572511219146" duration="7698000" />
       <workItem from="1572591637803" duration="9276000" />
-      <workItem from="1572680936201" duration="4228000" />
+      <workItem from="1572680936201" duration="4506000" />
+      <workItem from="1573325553664" duration="20544000" />
     </task>
     <servers />
   </component>
