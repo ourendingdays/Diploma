@@ -38,7 +38,21 @@ class AmazonSpiderSmartHome(scrapy.Spider):
     # start_urls = ['https://www.amazon.com/s?i=sporting-intl-ship&bbn=16225014011&rh=n%3A%2116225014011%2Cn%3A706814011%2Cn%3A11051399011%2Cn%3A4201151&dc&fst=as%3Aoff&qid=1573819084&rnid=11051399011&ref=sr_nr_n_7']
     # start_urls = ['https://www.amazon.com/s?i=sporting-intl-ship&bbn=16225014011&rh=n%3A%2116225014011%2Cn%3A706814011%2Cn%3A11051399011%2Cn%3A3421611&dc&fst=as%3Aoff&qid=1573819084&rnid=11051399011&ref=sr_nr_n_8']
     # start_urls = ['https://www.amazon.com/s?i=sporting-intl-ship&bbn=16225014011&rh=n%3A%2116225014011%2Cn%3A706814011%2Cn%3A11051399011%2Cn%3A19614711011&dc&fst=as%3Aoff&qid=1573819084&rnid=11051399011&ref=sr_nr_n_9']
-    start_urls = ['https://www.amazon.com/s?i=sporting-intl-ship&bbn=16225014011&rh=n%3A%2116225014011%2Cn%3A706814011%2Cn%3A11051399011%2Cn%3A10208053011&dc&fst=as%3Aoff&qid=1573819084&rnid=11051399011&ref=sr_nr_n_10']
+    # start_urls = ['https://www.amazon.com/s?i=sporting-intl-ship&bbn=16225014011&rh=n%3A%2116225014011%2Cn%3A706814011%2Cn%3A11051399011%2Cn%3A10208053011&dc&fst=as%3Aoff&qid=1573819084&rnid=11051399011&ref=sr_nr_n_10']
+    # start_urls = ['https://www.amazon.com/s?i=sporting-intl-ship&bbn=16225014011&rh=n%3A%2116225014011%2Cn%3A10971181011%2Cn%3A3421331%2Cn%3A3397331&dc&fst=as%3Aoff&qid=1573832383&rnid=3421331&ref=sr_nr_n_1']
+    # start_urls = ['https://www.amazon.com/s?i=sporting-intl-ship&bbn=16225014011&rh=n%3A%2116225014011%2Cn%3A10971181011%2Cn%3A3421331%2Cn%3A11030588011&dc&fst=as%3Aoff&qid=1573832383&rnid=3421331&ref=sr_nr_n_6']
+    # start_urls = ['https://www.amazon.com/s?i=sporting-intl-ship&bbn=16225014011&rh=n%3A%2116225014011%2Cn%3A10971181011%2Cn%3A3421331%2Cn%3A3399161&dc&fst=as%3Aoff&qid=1573832383&rnid=3421331&ref=sr_nr_n_5']
+    # start_urls = ['https://www.amazon.com/s?i=sporting-intl-ship&bbn=16225014011&rh=n%3A%2116225014011%2Cn%3A10971181011%2Cn%3A11444071011&dc&fst=as%3Aoff&qid=1573831958&rnid=10971181011&ref=sr_nr_n_2']
+    # start_urls = ['https://www.amazon.com/s?i=sporting-intl-ship&bbn=16225014011&rh=n%3A%2116225014011%2Cn%3A10971181011%2Cn%3A3407731%2Cn%3A3408061&dc&fst=as%3Aoff&qid=1573837271&rnid=3407731&ref=sr_nr_n_6']
+    # start_urls = ['https://www.amazon.com/s?i=sporting-intl-ship&bbn=16225014011&rh=n%3A%2116225014011%2Cn%3A10971181011%2Cn%3A3407731%2Cn%3A3407851&dc&fst=as%3Aoff&qid=1573838001&rnid=3407731&ref=sr_nr_n_1']
+    # start_urls = ['https://www.amazon.com/s?i=sporting-intl-ship&bbn=16225014011&rh=n%3A%2116225014011%2Cn%3A10971181011%2Cn%3A3407731%2Cn%3A3408021&dc&fst=as%3Aoff&qid=1573838001&rnid=3407731&ref=sr_nr_n_7']
+    # start_urls = ['https://www.amazon.com/s?i=sporting-intl-ship&bbn=16225014011&rh=n%3A%2116225014011%2Cn%3A10971181011%2Cn%3A3407731%2Cn%3A3407741&dc&fst=as%3Aoff&qid=1573843713&rnid=3407731&ref=sr_nr_n_2']
+    # start_urls = ['https://www.amazon.com/s?i=sporting-intl-ship&bbn=16225014011&rh=n%3A%2116225014011%2Cn%3A10971181011%2Cn%3A3407731%2Cn%3A3416071&dc&fst=as%3Aoff&qid=1573843713&rnid=3407731&ref=sr_nr_n_8']
+    # start_urls = ['https://www.amazon.com/s?i=sporting-intl-ship&bbn=16225014011&rh=n%3A%2116225014011%2Cn%3A10971181011%2Cn%3A3407731%2Cn%3A5819907011&dc&fst=as%3Aoff&qid=1573843713&rnid=3407731&ref=sr_nr_n_9']
+    # start_urls = ['https://www.amazon.com/s?i=sporting-intl-ship&bbn=16225014011&rh=n%3A%2116225014011%2Cn%3A10971181011%2Cn%3A3407731%2Cn%3A3408271&dc&fst=as%3Aoff&qid=1573843713&rnid=3407731&ref=sr_nr_n_10']
+    # start_urls = ['https://www.amazon.com/s?i=sporting-intl-ship&bbn=16225014011&rh=n%3A%2116225014011%2Cn%3A10971181011%2Cn%3A3407731%2Cn%3A11056111&dc&fst=as%3Aoff&qid=1573843713&rnid=3407731&ref=sr_nr_n_11']
+    start_urls = ['https://www.amazon.com/s?i=sporting-intl-ship&bbn=16225014011&rh=n%3A%2116225014011%2Cn%3A10971181011%2Cn%3A3407731%2Cn%3A3422251&dc&fst=as%3Aoff&qid=1573843713&rnid=3407731&ref=sr_nr_n_12']
+
 
 
 
