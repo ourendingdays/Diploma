@@ -2,9 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0fbbf6e-d701-4170-b1ca-14e8cb2d27e0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data/amazon/amazon/spiders/amazon_smart-home.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/amazon/amazon/spiders/amazon_sports-outdoors.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/amazon/amazon/spiders/amazon_sports-outdoors.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/amazon/amazon/spiders/amazon_sports-outdoors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/amazon/amazon_aports-outdoors_accessories.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/amazon/scrapped_data/sports-outdoors/outdoor-recreation/amazon_aports-outdoors_recreation_accessories.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/amazon/amazon_aports-outdoors_outdoor-clothing.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/amazon/scrapped_data/sports-outdoors/outdoor-recreation/amazon_aports-outdoors_recreation_outdoor-clothing.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/amazon/amazon_aports-outdoors_recreation_camping-hiking_bags.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/amazon/scrapped_data/sports-outdoors/outdoor-recreation/camping-hiking/amazon_aports-outdoors_recreation_camping-hiking_bags.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/amazon/amazon_aports-outdoors_recreation_camping-hiking_camp-furniture.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/amazon/scrapped_data/sports-outdoors/outdoor-recreation/camping-hiking/amazon_aports-outdoors_recreation_camping-hiking_camp-furniture.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/amazon/amazon_aports-outdoors_recreation_camping-hiking_camp-kitchen.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/amazon/scrapped_data/sports-outdoors/outdoor-recreation/camping-hiking/amazon_aports-outdoors_recreation_camping-hiking_camp-kitchen.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/amazon/amazon_aports-outdoors_recreation_camping-hiking_clothing.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/amazon/scrapped_data/sports-outdoors/outdoor-recreation/camping-hiking/amazon_aports-outdoors_recreation_camping-hiking_clothing.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/amazon/amazon_aports-outdoors_recreation_camping-hiking_footwear.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/amazon/scrapped_data/sports-outdoors/outdoor-recreation/camping-hiking/amazon_aports-outdoors_recreation_camping-hiking_footwear.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/amazon/amazon_aports-outdoors_recreation_camping-hiking_hydration-filtration.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/amazon/scrapped_data/sports-outdoors/outdoor-recreation/camping-hiking/amazon_aports-outdoors_recreation_camping-hiking_hydration-filtration.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/amazon/amazon_aports-outdoors_recreation_camping-hiking_knives-tools.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/amazon/scrapped_data/sports-outdoors/outdoor-recreation/camping-hiking/amazon_aports-outdoors_recreation_camping-hiking_knives-tools.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/amazon/amazon_aports-outdoors_recreation_camping-hiking_lights-lanterns.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/amazon/scrapped_data/sports-outdoors/outdoor-recreation/camping-hiking/amazon_aports-outdoors_recreation_camping-hiking_lights-lanterns.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/amazon/amazon_aports-outdoors_recreation_camping-hiking_navigation-electronics.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/amazon/scrapped_data/sports-outdoors/outdoor-recreation/camping-hiking/amazon_aports-outdoors_recreation_camping-hiking_navigation-electronics.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/amazon/amazon_aports-outdoors_recreation_camping-hiking_personal-care.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/amazon/scrapped_data/sports-outdoors/outdoor-recreation/camping-hiking/amazon_aports-outdoors_recreation_camping-hiking_personal-care.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/amazon/amazon_aports-outdoors_recreation_camping-hiking_safety-survival.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/amazon/scrapped_data/sports-outdoors/outdoor-recreation/camping-hiking/amazon_aports-outdoors_recreation_camping-hiking_safety-survival.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/amazon/amazon_aports-outdoors_recreation_camping-hiking_sleeping-bags.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/amazon/scrapped_data/sports-outdoors/outdoor-recreation/camping-hiking/amazon_aports-outdoors_recreation_camping-hiking_sleeping-bags.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/amazon/amazon_aports-outdoors_recreation_camping-hiking_tents.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/amazon/scrapped_data/sports-outdoors/outdoor-recreation/camping-hiking/amazon_aports-outdoors_recreation_camping-hiking_tents.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/amazon/amazon_aports-outdoors_recreation_camping-hiking_trekking-poles.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/amazon/scrapped_data/sports-outdoors/outdoor-recreation/camping-hiking/amazon_aports-outdoors_recreation_camping-hiking_trekking-poles.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/amazon/amazon_aports-outdoors_recreation_climbing.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/amazon/scrapped_data/sports-outdoors/outdoor-recreation/amazon_aports-outdoors_recreation_climbing.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/amazon/amazon_aports-outdoors_recreation_cycling.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/amazon/scrapped_data/sports-outdoors/outdoor-recreation/amazon_aports-outdoors_recreation_cycling.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/amazon/amazon_aports-outdoors_recreation_skates.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/amazon/scrapped_data/sports-outdoors/outdoor-recreation/amazon_aports-outdoors_recreation_skates.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/amazon/amazon_aports-outdoors_winter-sports_ice-skating.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/amazon/scrapped_data/sports-outdoors/outdoor-recreation/winter-sports/amazon_aports-outdoors_recreation_winter-sports_ice-skating.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/amazon/amazon_aports-outdoors_winter-sports_skiing.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/amazon/scrapped_data/sports-outdoors/outdoor-recreation/winter-sports/amazon_aports-outdoors_recreation_winter-sports_skiing.csv" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,11 +74,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/data/amazon/scrapped_data/tools-home__safety-security" />
-      <recent name="$PROJECT_DIR$/data/amazon/scrapped_data/tools-home__rough-plumbing" />
-      <recent name="$PROJECT_DIR$/data/amazon/scrapped_data/tools-home" />
-      <recent name="$PROJECT_DIR$/data/amazon/scrapped_data/tools-home__power-hand-tools" />
-      <recent name="$PROJECT_DIR$/data/amazon/scrapped_data/tools-home__lighting" />
+      <recent name="$PROJECT_DIR$/data/amazon/scrapped_data/sports-outdoors/outdoor-recreation/water-sports" />
+      <recent name="$PROJECT_DIR$/data/amazon/scrapped_data/sports-outdoors/outdoor-recreation/winter-sports" />
+      <recent name="$PROJECT_DIR$/data/amazon/scrapped_data/sports-outdoors/outdoor-recreation" />
+      <recent name="$PROJECT_DIR$/data/amazon/scrapped_data/sports-outdoors/outdoor-recreation/camping-hiking" />
+      <recent name="$PROJECT_DIR$/data/amazon/scrapped_data/sports-outdoors" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/data/amazon/amazon/spiders" />
@@ -181,7 +201,9 @@
       <workItem from="1572511219146" duration="7698000" />
       <workItem from="1572591637803" duration="9276000" />
       <workItem from="1572680936201" duration="4506000" />
-      <workItem from="1573325553664" duration="20544000" />
+      <workItem from="1573325553664" duration="20588000" />
+      <workItem from="1573382237885" duration="5749000" />
+      <workItem from="1573817413636" duration="7413000" />
     </task>
     <servers />
   </component>
