@@ -4,6 +4,9 @@
     <list default="true" id="a0fbbf6e-d701-4170-b1ca-14e8cb2d27e0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/amazon/amazon/spiders/amazon_sports-outdoors.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/amazon/amazon/spiders/amazon_sports-outdoors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/amazon/amazon_fitness_exercise_yoga.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/amazon/scrapped_data/sports-outdoors/fitness/exercise/amazon_fitness_exercise_yoga.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/amazon/amazon_smart-home.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/amazon/scrapped_data/amazon_smart-home.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/amazon/scrapped_data/sports-outdoors/fitness/exercise/amazon_fitness_exercise_triatlon.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/amazon/scrapped_data/sports-outdoors/fitness/exercise/amazon_fitness_exercise_triathlon.csv" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,10 +57,10 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/data/amazon/scrapped_data/sports-outdoors/fitness" />
-      <recent name="$PROJECT_DIR$/data/amazon/scrapped_data/sports-outdoors/outdoor-recreation/water-sports" />
-      <recent name="$PROJECT_DIR$/data/amazon/scrapped_data/sports-outdoors/outdoor-recreation/winter-sports" />
-      <recent name="$PROJECT_DIR$/data/amazon/scrapped_data/sports-outdoors/outdoor-recreation" />
-      <recent name="$PROJECT_DIR$/data/amazon/scrapped_data/sports-outdoors/outdoor-recreation/camping-hiking" />
+      <recent name="$PROJECT_DIR$/data/amazon/scrapped_data" />
+      <recent name="$PROJECT_DIR$/data/amazon/scrapped_data/sports-outdoors/fitness/hunting-fishing" />
+      <recent name="$PROJECT_DIR$/data/amazon/scrapped_data/sports-outdoors/fitness/exercise" />
+      <recent name="$PROJECT_DIR$/data/amazon/scrapped_data/sports-outdoors/fitness/boating-sailing" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/data/amazon/amazon/spiders" />
@@ -182,7 +185,7 @@
       <workItem from="1572680936201" duration="4506000" />
       <workItem from="1573325553664" duration="20588000" />
       <workItem from="1573382237885" duration="5749000" />
-      <workItem from="1573817413636" duration="15615000" />
+      <workItem from="1573817413636" duration="24936000" />
     </task>
     <servers />
   </component>
