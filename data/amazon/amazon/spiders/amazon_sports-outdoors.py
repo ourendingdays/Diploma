@@ -80,7 +80,43 @@ class AmazonSpiderSmartHome(scrapy.Spider):
     # start_urls = ['https://www.amazon.com/s?i=sporting-intl-ship&bbn=16225014011&rh=n%3A%2116225014011%2Cn%3A10971181011%2Cn%3A706809011%2Cn%3A3412011&dc&fst=as%3Aoff&qid=1573998796&rnid=706809011&ref=sr_nr_n_9']
     # start_urls = ['https://www.amazon.com/s?i=sporting-intl-ship&bbn=16225014011&rh=n%3A%2116225014011%2Cn%3A10971181011%2Cn%3A706809011%2Cn%3A3420921&dc&fst=as%3Aoff&qid=1573998972&rnid=706809011&ref=sr_nr_n_10']
     # start_urls = ['https://www.amazon.com/s?i=sporting-intl-ship&bbn=16225014011&rh=n%3A%2116225014011%2Cn%3A10971181011%2Cn%3A706809011%2Cn%3A3407321&dc&fst=as%3Aoff&qid=1573998972&rnid=706809011&ref=sr_nr_n_11']
-    start_urls = ['https://www.amazon.com/s?i=sporting-intl-ship&bbn=16225014011&rh=n%3A%2116225014011%2Cn%3A10971181011%2Cn%3A706809011%2Cn%3A3422351&dc&fst=as%3Aoff&qid=1574002000&rnid=706809011&ref=sr_nr_n_12']
+    # start_urls = ['https://www.amazon.com/s?i=sporting-intl-ship&bbn=16225014011&rh=n%3A%2116225014011%2Cn%3A10971181011%2Cn%3A706809011%2Cn%3A3422351&dc&fst=as%3Aoff&qid=1574002000&rnid=706809011&ref=sr_nr_n_12']
+    # start_urls = ['https://www.amazon.com/s?i=sporting-intl-ship&bbn=16225014011&rh=n%3A%2116225014011%2Cn%3A10971181011%2Cn%3A706809011%2Cn%3A12119414011&dc&fst=as%3Aoff&qid=1574033919&rnid=706809011&ref=sr_nr_n_13']
+    # start_urls = ['https://www.amazon.com/s?i=sporting-intl-ship&bbn=16225014011&rh=n%3A%2116225014011%2Cn%3A10971181011%2Cn%3A706809011%2Cn%3A12119428011&dc&fst=as%3Aoff&qid=1574034207&rnid=706809011&ref=sr_nr_n_14']
+    # start_urls = [
+    #     'https://www.amazon.com/s?i=sporting-intl-ship&bbn=16225014011&rh=n%3A%2116225014011%2Cn%3A10971181011%2Cn%3A706810011%2Cn%3A3400051&dc&fst=as%3Aoff&qid=1574064916&rnid=706810011&ref=sr_nr_n_1',
+    #     'https://www.amazon.com/s?i=sporting-intl-ship&bbn=16225014011&rh=n%3A%2116225014011%2Cn%3A10971181011%2Cn%3A706810011%2Cn%3A13285461&dc&fst=as%3Aoff&qid=1574064916&rnid=706810011&ref=sr_nr_n_2',
+    #     'https://www.amazon.com/s?i=sporting-intl-ship&bbn=16225014011&rh=n%3A%2116225014011%2Cn%3A10971181011%2Cn%3A706810011%2Cn%3A13286711&dc&fst=as%3Aoff&qid=1574064916&rnid=706810011&ref=sr_nr_n_4',
+    #     'https://www.amazon.com/s?i=sporting-intl-ship&bbn=16225014011&rh=n%3A%2116225014011%2Cn%3A10971181011%2Cn%3A706810011%2Cn%3A3416451&dc&fst=as%3Aoff&qid=1574064916&rnid=706810011&ref=sr_nr_n_6',
+    #     'https://www.amazon.com/s?i=sporting-intl-ship&bbn=16225014011&rh=n%3A%2116225014011%2Cn%3A10971181011%2Cn%3A706810011%2Cn%3A3415011&dc&fst=as%3Aoff&qid=1574064916&rnid=706810011&ref=sr_nr_n_7',
+    # ]
+    # start_urls = ['https://www.amazon.com/s?i=sporting-intl-ship&bbn=16225014011&rh=n%3A%2116225014011%2Cn%3A10971181011%2Cn%3A3418761&dc&fst=as%3Aoff&qid=1574066058&rnid=10971181011&ref=sr_nr_n_9']
+    start_urls = [
+        'https://www.amazon.com/s?i=sporting-intl-ship&bbn=16225014011&rh=n%3A%2116225014011%2Cn%3A3386071%2Cn%3A3209250011&dc&fst=as%3Aoff&qid=1574067414&rnid=3386071&ref=sr_nr_n_22',
+        'https://www.amazon.com/s?i=sporting-intl-ship&bbn=16225014011&rh=n%3A%2116225014011%2Cn%3A3386071%2Cn%3A375519011&dc&fst=as%3Aoff&qid=1574067414&rnid=3386071&ref=sr_nr_n_21',
+        'https://www.amazon.com/s?i=sporting-intl-ship&bbn=16225014011&rh=n%3A%2116225014011%2Cn%3A3386071%2Cn%3A374783011&dc&fst=as%3Aoff&qid=1574067414&rnid=3386071&ref=sr_nr_n_19',
+        'https://www.amazon.com/s?i=sporting-intl-ship&bbn=16225014011&rh=n%3A%2116225014011%2Cn%3A3386071%2Cn%3A3250697011&dc&fst=as%3Aoff&qid=1574067414&rnid=3386071&ref=sr_nr_n_17',
+        'https://www.amazon.com/s?i=sporting-intl-ship&bbn=16225014011&rh=n%3A%2116225014011%2Cn%3A3386071%2Cn%3A5769002011&dc&fst=as%3Aoff&qid=1574067414&rnid=3386071&ref=sr_nr_n_16',
+        'https://www.amazon.com/s?i=sporting-intl-ship&bbn=16225014011&rh=n%3A%2116225014011%2Cn%3A3386071%2Cn%3A374893011&dc&fst=as%3Aoff&qid=1574067414&rnid=3386071&ref=sr_nr_n_15',
+        'https://www.amazon.com/s?i=sporting-intl-ship&bbn=16225014011&rh=n%3A%2116225014011%2Cn%3A3386071%2Cn%3A2309018011&dc&fst=as%3Aoff&qid=1574067414&rnid=3386071&ref=sr_nr_n_14',
+        'https://www.amazon.com/s?i=sporting-intl-ship&bbn=16225014011&rh=n%3A%2116225014011%2Cn%3A3386071%2Cn%3A374916011&dc&fst=as%3Aoff&qid=1574067414&rnid=3386071&ref=sr_nr_n_13',
+        'https://www.amazon.com/s?i=sporting-intl-ship&bbn=16225014011&rh=n%3A%2116225014011%2Cn%3A3386071%2Cn%3A374819011&dc&fst=as%3Aoff&qid=1574067414&rnid=3386071&ref=sr_nr_n_12',
+        'https://www.amazon.com/s?i=sporting-intl-ship&bbn=16225014011&rh=n%3A%2116225014011%2Cn%3A3386071%2Cn%3A374773011&dc&fst=as%3Aoff&qid=1574067414&rnid=3386071&ref=sr_nr_n_1',
+        'https://www.amazon.com/s?i=sporting-intl-ship&bbn=16225014011&rh=n%3A%2116225014011%2Cn%3A3386071%2Cn%3A5768995011&dc&fst=as%3Aoff&qid=1574067414&rnid=3386071&ref=sr_nr_n_3',
+        'https://www.amazon.com/s?i=sporting-intl-ship&bbn=16225014011&rh=n%3A%2116225014011%2Cn%3A3386071%2Cn%3A5768574011&dc&fst=as%3Aoff&qid=1574067414&rnid=3386071&ref=sr_nr_n_2',
+        'https://www.amazon.com/s?i=sporting-intl-ship&bbn=16225014011&rh=n%3A%2116225014011%2Cn%3A3386071%2Cn%3A3209246011&dc&fst=as%3Aoff&qid=1574067414&rnid=3386071&ref=sr_nr_n_4',
+        'https://www.amazon.com/s?i=sporting-intl-ship&bbn=16225014011&rh=n%3A%2116225014011%2Cn%3A3386071%2Cn%3A2311740011&dc&fst=as%3Aoff&qid=1574067414&rnid=3386071&ref=sr_nr_n_7',
+        'https://www.amazon.com/s?i=sporting-intl-ship&bbn=16225014011&rh=n%3A%2116225014011%2Cn%3A3386071%2Cn%3A18882554011&dc&fst=as%3Aoff&qid=1574067414&rnid=3386071&ref=sr_nr_n_8',
+        'https://www.amazon.com/s?i=sporting-intl-ship&bbn=16225014011&rh=n%3A%2116225014011%2Cn%3A3386071%2Cn%3A374747011&dc&fst=as%3Aoff&qid=1574067414&rnid=3386071&ref=sr_nr_n_9',
+        'https://www.amazon.com/s?i=sporting-intl-ship&bbn=16225014011&rh=n%3A%2116225014011%2Cn%3A3386071%2Cn%3A2309443011&dc&fst=as%3Aoff&qid=1574067360&rnid=3386071&ref=sr_nr_n_20'
+    ]
+
+
+
+
+
+
+
 
     def parse(self, response):
         items = AmazonItem()
@@ -94,5 +130,5 @@ class AmazonSpiderSmartHome(scrapy.Spider):
             yield items
 
         if next_page_real is not None:
-            # time.sleep(2)
+            time.sleep(2)
             yield response.follow(next_page_real, callback=self.parse)
