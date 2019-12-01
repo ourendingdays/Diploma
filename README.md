@@ -5,7 +5,8 @@ My bachelor work in Hochschule Merseburg written in Python, using NLP and ML
 
 #### Work process:
 - [X] Learn about NLP
-- [ ] Scrap data
+- [X] Scrap data
+- [ ] Try NLTK / spacy on datasets
 - [ ] Learn more about hierarchical clustering
 - [ ] Combine clustering and scrapped data
 - [ ] Build graphs / plots
@@ -38,7 +39,7 @@ __Example:__
 - letgo
 - salespider
 - ebay
-- amazon
+-  [X] amazon
 
 
 ## Amazon data issues:
