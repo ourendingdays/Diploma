@@ -1,15 +1,15 @@
 # Diploma
-My bachelor work in Hochschule Merseburg written in Python, using NLP and ML
+My bachelor work in Hochschule Merseburg written in Python, using Native Language Processing of ML
 
 ###### Theme of my work is (not yet approved): ***Analysing advertising using hierarchical clustering***
 
 #### Work process:
 - [X] Learn about NLP
 - [X] Scrap data
-- [ ] Try NLTK / spacy on datasets
-- [ ] Learn more about hierarchical clustering
-- [ ] Combine clustering and scrapped data
-- [ ] Build graphs / plots
+- [X] Try NLTK / spacy on datasets
+- [X] Learn more about hierarchical clustering / DBSCAN / Neural networks
+- [ ] Code the Diploma
+- [X] Build graphs / plots
 - [ ] Write a Diploma itself
 
 
@@ -17,7 +17,7 @@ My bachelor work in Hochschule Merseburg written in Python, using NLP and ML
 1. **Data**
     - Scrapping data from web using scapy, google useragent or proxies. I used to scrap amazon with proxie, but because of lagging and switching off decided to use useragent and time.sleep()
 2. **ML**
-    - Writing diploma using clustering
+    - Writing diploma using clustering / neural networks / other preprocessing tools
     
 #### Commits
 >One of the 2 branches above: subproject: message. _Not including README.md_. 
@@ -45,5 +45,3 @@ __Example:__
 ## Amazon data issues:
 When entering _departments_ on amazon you can scrap either **400** pages of `common` products of said department, or go into ***Feature Categories*** and scrap `precise` products.  
 For instance: 400 pages of **automotive** department **OR** *Car care, car electronics* and so on.
-
->TODO: Create `precise` and `common` folders and scrap everything there --- [X] done
