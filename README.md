@@ -1,23 +1,22 @@
 # Diploma
 My bachelor work in Hochschule Merseburg written in Python, using Native Language Processing of ML
 
-###### Theme of my work is (not yet approved): ***Analysing advertising using hierarchical clustering***
+###### Thesis is as follows: ***Classification of advertisements by means of supervised learning methods ***
 
 #### Work process:
 - [X] Learn about NLP
 - [X] Scrap data
 - [X] Try NLTK / spacy on datasets
-- [X] Learn more about hierarchical clustering / DBSCAN / Neural networks
-- [ ] Code the Diploma
-- [X] Build graphs / plots
-- [ ] Write a Diploma itself
+- [X] Learn more about hclustering algorithms / Neural networks / Other NLP methods like Topic Modelling, W2W and so on
+- [X] Code the Diploma
+- [ ] Write a Diploma itself = Thesis
 
 
 #### My bachelor has two major branches: 
 1. **Data**
     - Scrapping data from web using scapy, google useragent or proxies. I used to scrap amazon with proxie, but because of lagging and switching off decided to use useragent and time.sleep()
 2. **ML**
-    - Writing diploma using clustering / neural networks / other preprocessing tools
+    - Code implemenation 
     
 #### Commits
 >One of the 2 branches above: subproject: message. _Not including README.md_. 
