@@ -1,7 +1,7 @@
 # Diploma
 My bachelor work in Hochschule Merseburg written in Python, using Native Language Processing of ML
 
-###### Thesis is as follows: ***Classification of advertisements by means of supervised learning methods ***
+###### My bachelor thesis is: ***Classification of advertisements by means of supervised learning methods ***
 
 #### Work process:
 - [X] Learn about NLP
@@ -9,7 +9,7 @@ My bachelor work in Hochschule Merseburg written in Python, using Native Languag
 - [X] Try NLTK / spacy on datasets
 - [X] Learn more about hclustering algorithms / Neural networks / Other NLP methods like Topic Modelling, W2W and so on
 - [X] Code the Diploma
-- [ ] Write a Diploma itself = Thesis
+- [X] Write a Diploma itself = Thesis
 
 
 #### My bachelor has two major branches: 
